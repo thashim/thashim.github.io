@@ -1,0 +1,32 @@
+.resume-profile{
+    text-align: left; //align text to the left on extra small screens
+
+    //styles specific to large small > extra large screens
+    @media (min-width: $screen-sm-min) {
+        text-align: right;
+    }
+
+    h1{
+        display: block;
+        
+        //styles specific to large small > extra large screens
+        @media (min-width: $screen-sm-min) {
+           display: inline-block;
+        }
+         
+        clear: both;
+         //line-height: 1.1;
+         @include after-heading-underline;
+
+         small{
+            display: block;
+            padding-bottom: (($line-height-computed / 2) - 4);
+        }
+    }
+   
+    img{
+        margin-bottom: ($line-height-computed + 4);
+    }
+    margin-bottom: 32px;
+    
+}

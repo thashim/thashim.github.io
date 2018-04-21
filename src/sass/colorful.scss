@@ -1,0 +1,43 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+// Custom Variables and Bootstrap Variable Overwrites
+@import "settings";
+
+
+//colorful style variables and settings overwrites
+$body-bg: $yellowy;
+
+//link color
+$link-color: 			#F44336;
+$link-hover-color:    	darken($link-color, 40%);
+
+//tags
+$taglist-item-bg-color: #ffeb3b;
+
+//navbar
+$nav-link-hover-bg:   				#fcf8e3;
+$nav-pills-active-link-hover-bg: 	#f9e88e;
+
+//progress bar
+$progress-bar-info-bg:   	#ffeb3b;
+$progress-bg: 				$abgray;
+
+//after section underline seperators
+$after-section-underline-color: $abgray;
+
+//blockquotes
+$blockquote-border-color:     $abgray;
+
+
+//Core theme components
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap"; // Import Bootstrap
+@import "core/mixins";
+@import "core/global";
+@import "core/type";
+
+//resume component styles
+@import "components/resume/resume-profile";
+@import "components/resume/resume-info";
+@import "components/resume/resume-navigation";

@@ -1,0 +1,103 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+// Custom Variables and Bootstrap Variable Overwrites
+@import "settings";
+
+
+//morning gray style variables and settings overwrites
+$body-bg: $ffeyellow;
+
+//link color
+$link-color: 			$brightorange;
+$link-hover-color:    	darken($link-color, 20%);
+
+//thumbnail
+$thumbnail-border:            $f5smoke;
+
+//tags
+$taglist-item-bg-color: $ffeyellow;
+
+//navbar
+$nav-link-hover-bg:   				$f5smoke;
+$nav-pills-active-link-hover-bg: 	$white;
+
+//resume navigation
+$resume-navigation-link-color: $ccgray;
+
+//progress bar
+$progress-bar-info-bg:   	darken($ffeyellow, 10%);
+$progress-bg: 				darken($f5smoke, 5%);
+
+//after section underline seperators
+$after-section-underline-color: $f5smoke;
+
+//blockquotes
+$blockquote-border-color:     $f5smoke;
+
+
+//Core theme components
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap"; // Import Bootstrap
+@import "core/mixins";
+@import "core/global";
+@import "core/type";
+
+//resume component styles
+@import "components/resume/resume-profile";
+@import "components/resume/resume-info";
+@import "components/resume/resume-navigation";
+
+/* 
+* Component  Style Overwrite
+*/
+
+/* resume info */
+//add the stack paper effect to the resume info
+.resume-info{
+    background-color: #fff;
+    padding-top: 24px;
+    border: 1px dashed $seablue;
+    box-shadow: 0 0 1px $seablue;
+  	position: relative;
+
+		&:before, &:after {
+		  content: "";
+		  height: 100%;
+		  position: absolute;
+		  width: 94%;
+		  z-index: -1;
+		}
+		&:before {
+		  background: lighten($f5smoke, 1%);
+		  box-shadow: 0 0 4px $ccgray;
+		  left: -4px;
+		  top: 4px;
+		  transform: rotate(-0.2deg);
+		}
+		&:after {
+		  background: lighten($f5smoke, 0.010%);
+		  box-shadow: 0 0 3px $ccgray;
+		  right: 18px;
+	  		@media (min-width: $screen-sm-min) {
+		   		 right: 0px;
+	   		}
+		  top: 2px;
+		  transform: rotate(0.3deg);
+		}
+ }
+
+ /* resume profile */
+ //styles specific to large small > extra large screens
+.resume-profile{
+	@media (min-width: $screen-sm-min) {
+   		margin-top: 32px;
+	}
+}
+
+/* resume navigation */
+.resume-navigation{
+	@media (min-width: $screen-sm-min) {
+   		margin-top: 32px;
+   	}
+}

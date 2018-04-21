@@ -1,0 +1,13 @@
+
+body{
+ 	padding: 32px 0 56px 0; //padding for extra small devices (based on a 8px vertical and horizontal rhythm)
+
+	@media (min-width: $screen-sm-min) {
+	   padding: 90px 0 136px 0; //padding for small devices and up
+	}
+}
+
+a{
+	//add a transition to all link elements
+	transition: 0.2s all;
+}

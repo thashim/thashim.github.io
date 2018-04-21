@@ -1,0 +1,14 @@
+ .resume-navigation{
+    //padding-top: 40px;
+    max-width: 243px;
+
+    li > ul{
+        margin-left: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    a{
+        color: $resume-navigation-link-color;
+    }
+}
