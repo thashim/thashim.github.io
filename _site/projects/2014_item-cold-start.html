@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Tatsunori Hashimoto | Item Cold-start Recommendations</title>
+  <meta name="description" content="Homepage of Tatsunori Hashimoto">
+  <meta name="author" content="Tatsunori Hashimoto">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~thashim/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/~thashim/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/~thashim/libs/custom/my_css.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/~thashim/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~thashim/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~thashim/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/~thashim/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/~thashim/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/~thashim/libs/external/github-prettify-theme.css>-->
+  <script src=/~thashim/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- 
+  <link rel="icon" type="image/png" href=/~thashim/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/~thashim/libs/icon.png>
+  -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="/~thashim/"><img class="u-max-full-width" src='/~thashim/assets/profile-pics/thashim.jpg'></a>
+        </div>
+        <div class="nine columns main-description">
+            <h1>Tatsunori Hashimoto</h1>
+            <p>Postdoc, Stanford</p>
+            <p>thashim [AT] stanford.edu</p>
+            <p>
+              <span onclick="window.open('https://twitter.com/tatsu_hashimoto')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://github.com/thashim')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/~thashim/index.html#bio>Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~thashim/index.html#publications>Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~thashim/index.html#people>People</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/~thashim/index.html#resume>Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="docs-section">
+
+  
+    <div class="title-subtitle">
+      <h3>Item Cold-start Recommendations</h3>
+      <h5>Learning Local Collective Embeddings</h5>
+    </div>
+  
+
+  <p>Recommender systems suggest to users items that they might like (e.g., news articles, songs, movies) and, in doing so, they help users deal with information overload and enjoy a personalized experience. One of the main problems of these systems is the item cold-start, i.e., when a new item is introduced in the system and no past information is available, then no effective recommendations can be produced. The item cold-start is a very common problem in practice: modern online platforms have hundreds of new items published every day. To address this problem, we propose to learn <em>Local Collective Embeddings</em>: a matrix factorization that exploits items’ properties and past user preferences while enforcing the manifold structure exhibited by the collective embeddings. We present a learning algorithm based on multiplicative update rules that are efficient and easy to implement. The experimental results on two item cold-start use cases: news recommendation and email recipient recommendation, demonstrate the effectiveness of this approach and show that it significantly outperforms six state-of-the-art methods for item cold-start.</p>
+
+<p><strong>More details: <a href="/~thashim/assets/publications/2014_item_cold_start/paper.pdf">paper</a>, <a href="/~thashim/assets/publications/2014_item_cold_start/slides.pdf">slides</a>.</strong></p>
+
+<figure class="image">
+  <img src="/~thashim/assets/projects/2014_item-cold-start/main.jpg" alt="The intuition behind learning collective embeddings using matrix factorization" style="width: 100%" />
+  <figcaption><b>The intuition behind learning collective embeddings using matrix factorization</b></figcaption>
+</figure>
+
+
+</div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="four columns">
+          Tatsunori Hashimoto
+        </div>
+        <div class="four columns">
+          thashim [AT] stanford.edu
+        </div>
+        <div class="four columns">
+          <span onclick="window.open('https://twitter.com/tatsu_hashimoto')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('https://github.com/thashim')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

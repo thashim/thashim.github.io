@@ -1,0 +1,321 @@
+
+/**
+* most of the variables this file overwrites can be found in 
+* node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss"
+*/
+
+//== Colors
+//
+$white: 				#fff !default;
+$black: 				#000 !default;
+$darkseagreen:          #8fbc8f !default;
+$whitesmoke:            #f6f6f6 !default;
+$f5smoke: 				#f5f5f5 !default;
+$graysmoke:            	#f2f2f2 !default;
+$redishbrown: 			#a94442 !default;
+$yellowy: 				#fffdeb !default;
+$abgray: 				#aba892 !default;
+$e6pink: 				#e6bcbc !default;
+$hotpink: 				#e91e63 !default;
+$ddgray: 				#dddddd !default;
+$morningblue: 			#b5dbef !default;
+$morningblue-lighter: 	#d9edf7 !default;
+$pinky-pink: 			#f2dede !default;
+$warmpink: 				#f19f9f !default;
+$ccgray: 				#cccccc !default;
+$seagreen: 				#dff0d8 !default;
+$seagreen-darker: 		#bfe4af !default;
+$seablue: 				$morningblue-lighter !default;
+$seablue-darker: 		#4f95d2 !default;
+$b4blue: 				#b4d7e8 !default;
+$cyanlight: 			#E0F7FA !default;
+$ffeyellow:				#FFECB3 !default;
+$brightorange: 			#F57C00 !default;
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #ccc !default;//#5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+
+//** Global textual link color.
+$link-color:            $brand-primary !default; //$redishbrown; //
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+$padding-base-vertical:     8px !default;
+$padding-base-horizontal:   16px !default;
+
+$padding-large-vertical:    16px !default;
+$padding-large-horizontal:  24px !default;
+
+$padding-small-vertical:    4px !default;
+$padding-small-horizontal:  8px !default;
+
+$padding-xs-vertical:       2px !default;
+$padding-xs-horizontal:     8px !default;
+
+//$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+$line-height-large:         1.5 !default; // extra decimals for Win 8.1 Chrome
+$line-height-small:         1.5 !default;
+
+$border-radius-base:        0px !default;
+$border-radius-large:       0px !default;
+$border-radius-small:       0px !default;
+
+//** Global color for active items (e.g., navs or dropdowns).
+$component-active-color:   $gray-light  !default;
+//** Global background color for active items (e.g., navs or dropdowns).
+$component-active-bg:       $gray-lighter  !default; //$brand-primary !default;
+
+//** Width of the `border` for generating carets that indicate dropdowns.
+$caret-width-base:          4px !default;
+//** Carets increase slightly in size for larger components.
+$caret-width-large:         8px !default;
+
+
+//Tags
+$taglist-item-bg-color: $whitesmoke !default; 
+
+//section underline seperators
+$after-section-underline-color: $whitesmoke !default;
+
+//resume navigation
+$resume-navigation-link-color: $ccgray !default;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         56px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  'Roboto', sans-serif  !default ; //"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          16px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // 
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // 
+
+$font-size-h1:            floor(($font-size-base * 1.8)) !default; // 
+$font-size-h2:            floor(($font-size-base * 1.7)) !default; // 
+$font-size-h3:            ceil(($font-size-base * 1.6)) !default; // 
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // 
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // 
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:          1.5 !default; // 24/16
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~22px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:   $font-family-serif;
+$headings-font-weight:    400  !default;
+$headings-line-height:    1.5  !default;
+$headings-color:          $gray-darker  !default;
+
+
+//== Navs
+//
+//##
+
+//=== Shared nav styles
+$nav-link-padding:                          8px !default;
+$nav-link-hover-bg:                         $gray-lighter !default;
+
+$nav-disabled-link-color:                   $gray-light !default;
+$nav-disabled-link-hover-color:             $gray-light !default;
+
+//== Tabs
+$nav-tabs-border-color:                     #ddd !default;
+
+$nav-tabs-link-hover-border-color:          $gray-light !default;
+
+$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-color:          $gray !default;
+$nav-tabs-active-link-hover-border-color:   #ddd !default;
+
+$nav-tabs-justified-link-border-color:            #ddd !default;
+$nav-tabs-justified-active-link-border-color:     $body-bg !default;
+
+//== Pills
+$nav-pills-border-radius:                   $border-radius-base !default;
+$nav-pills-active-link-hover-bg:            $component-active-bg !default;
+$nav-pills-active-link-hover-color:         $component-active-color !default;
+
+
+
+//== Jumbotron
+//
+//##
+$jumbotron-padding:              16px  !default;
+$jumbotron-color:                inherit !default;
+$jumbotron-bg:                   $whitesmoke  !default;
+$jumbotron-heading-color:        inherit !default;
+$jumbotron-font-size:            ceil(($font-size-base * 1.2));
+$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
+
+
+//== Progress bars
+//
+//##
+
+//** Background color of the whole progress component
+$progress-bg:                 #f5f5f5 !default;
+//** Progress bar text color
+$progress-bar-color:          #fff !default;
+//** Variable for setting rounded corners on progress bar.
+$progress-border-radius:      $border-radius-base !default;
+
+//** Default progress bar color
+$progress-bar-bg:             $brand-primary !default;
+//** Success progress bar color
+$progress-bar-success-bg:     $brand-success !default;
+//** Warning progress bar color
+$progress-bar-warning-bg:     $brand-warning !default;
+//** Danger progress bar color
+$progress-bar-danger-bg:      $brand-danger !default;
+//** Info progress bar color
+$progress-bar-info-bg:        $brand-info !default;
+
+
+//== Thumbnails
+//
+//##
+
+//** Padding around the thumbnail image
+$thumbnail-padding:           4px !default;
+//** Thumbnail background color
+$thumbnail-bg:                $body-bg !default;
+//** Thumbnail border color
+$thumbnail-border:            #ddd !default;
+//** Thumbnail border radius
+$thumbnail-border-radius:     $border-radius-base !default;
+
+//** Custom text color for thumbnail captions
+$thumbnail-caption-color:     $text-color !default;
+//** Padding around the thumbnail caption
+$thumbnail-caption-padding:   8px !default;
+
+
+//== Code
+//
+//##
+
+$code-color:                  #c7254e !default;
+$code-bg:                     #f9f2f4 !default;
+
+$kbd-color:                   #fff !default;
+$kbd-bg:                      #333 !default;
+
+$pre-bg:                      #f5f5f5 !default;
+$pre-color:                   $gray-dark !default;
+$pre-border-color:            #ccc !default;
+$pre-scrollable-max-height:   340px !default;
+
+
+//== Type
+//
+//##
+
+//** Horizontal offset for forms and lists.
+$component-offset-horizontal: 180px !default;
+//** Text muted color
+$text-muted:                  $gray-light !default;
+//** Abbreviations and acronyms border color
+$abbr-border-color:           $gray-light !default;
+//** Headings small color
+$headings-small-color:        $gray-light !default;
+//** Blockquote small color
+$blockquote-small-color:      $gray-light !default;
+//** Blockquote font size
+$blockquote-font-size:        ($font-size-base * 1.25) !default;
+//** Blockquote border color
+$blockquote-border-color:     $gray-lighter !default;
+//** Page header border color
+$page-header-border-color:    $gray-lighter !default;
+//** Width of horizontal description list titles
+$dl-horizontal-offset:        $component-offset-horizontal !default;
+//** Point at which .dl-horizontal becomes horizontal
+$dl-horizontal-breakpoint:    $grid-float-breakpoint !default;
+//** Horizontal line color.
+$hr-border:                   $gray-lighter !default;

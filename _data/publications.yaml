@@ -1,0 +1,156 @@
+papers:
+
+  - title: "Distributionally Robust Losses Against Mixture Covariate Shifts"
+    authors: "John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong"
+    venue: "Preprint"
+    paper_pdf: "/assets/publications/condrisk.pdf"
+    statsml: y
+    nlp: n
+    bio: n
+
+  - title: "Inferring Multidimensional Rates of Aging from Cross-Sectional Data"
+    authors: "Emma Pierson<b>*</b>, Pang Wei Koh <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Daphne Koller, Jure Lesokevic, Nicholas Eriksson, Percy Liang"
+    venue: 22nd International Conference on Artificial Intelligence and Statistics (AISTATS 2019)
+    bio: y
+
+  - title: "Unifying Human and Statistical Evaluation for Natural Language Generation"
+    authors: "Tatsunori B Hashimoto<b>*</b>, Hugh Zhang<b>*</b>, Percy Liang"
+    venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019, To appear)"
+    paper_pdf: "/assets/publications/nlg-paper.pdf"
+    nlp: y
+
+  - title: "A Retrieve-and-Edit Framework for Predicting Structured Outputs"
+    authors: "Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, Percy Liang"
+    venue: "Advances in Neural Information Processing Systems 31 (NeurIPS 2018, Oral)"
+    paper_pdf: "http://arxiv.org/abs/1812.01194"
+    nlp: y
+    statsml: y
+
+  - title: "Generating Sentences by Editing Prototypes"
+    authors: "Kelvin Guu<b>*</b>, Tatsunori B Hashimoto<b>*</b>, Yonatan Oren, Percy Liang"
+    venue: "Transactions of the Association of Computational Linguistics (TACL, presented at ACL 2018)"
+    paper_pdf: "https://arxiv.org/abs/1709.08878"
+    nlp: y
+
+  - title: "Fairness Without Demographics in Repeated Loss Minimization"
+    authors: "Tatsunori B Hashimoto, Megha Srivastava, Hongseok Namkoong, Percy Liang"
+    venue: "Proceedings of the 35th International Conference on Machine Learning (ICML 2018, Best paper runner up)"
+    paper_pdf: "https://arxiv.org/abs/1806.08010"
+    statsml: y
+
+  - title: "Derivative free optimization via repeated classification"
+    authors:  "Tatsunori B Hashimoto, Steve Yadlowsky, John C Duchi"
+    venue: "21st International Conference on Artificial Intelligence and Statistics (AISTATS 2018)"
+    paper_pdf: "https://arxiv.org/abs/1804.03761"
+    statsml: y
+
+  - title: "Unsupervised Transformation Learning via Convex Relaxations"
+    authors: "Tatsunori B Hashimoto, Percy S Liang, John C Duchi"
+    venue: "Advances in Neural Information Processing Systems 30 (NeurIPS 2017)"
+    paper_pdf: "http://papers.nips.cc/paper/7263-unsupervised-transformation-learning-via-convex-relaxations"
+    statsml: y
+
+  - title: "Continuous representations and models from random walk diffusion limits"
+    authors: "Tatsunori B Hashimoto" 
+    venue: "PhD Thesis, MIT CSAIL, 2016"
+    paper_pdf: "https://dspace.mit.edu/handle/1721.1/105670"
+    statsml: y
+    nlp: y
+    bio: y
+
+
+  - title: "Word embeddings as metric recovery in semantic spaces"
+    authors: "Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola"
+    venue: "Transactions of the Association for Computational Linguistics 4 (TACL,  presented at ACL 2016)"
+    paper_pdf: "https://transacl.org/ojs/index.php/tacl/article/view/809"
+    statsml: y
+    nlp: y
+
+  - title: "Learning Population-Level Diffusions with Generative RNNs"
+    authors: "Tatsunori B Hashimoto, David Gifford, Tommi Jaakkola"
+    venue: "Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)"
+    paper_pdf: "http://proceedings.mlr.press/v48/hashimoto16.pdf"
+    bio: y
+    statsml: y
+
+  - title: "From random walks to distances on unweighted graphs"
+    authors: "Tatsunori B Hashimoto, Yi Sun, Tommi Jaakkola"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS 2015)"
+    paper_pdf: "http://papers.nips.cc/paper/6009-from-random-walks-to-distances-on-unweighted-graph"
+    statsml: y
+
+  - title: "Metric recovery from directed unweighted graphs"
+    authors: "Tatsunori B Hashimoto, Yi Sun, Tommi Jaakkola"
+    venue: "Artificial Intelligence and Statistics (AISTATS 2015), (best poster at 
+NeurIPS 2014 workshop on networks)"
+    paper_pdf: "http://proceedings.mlr.press/v38/hashimoto15.html"
+    statsml: y
+
+  - title: "A synergistic DNA logic predicts genome-wide chromatin accessibility"
+    authors: "Tatsunori B Hashimoto<b>*</b>, Richard I Sherwood<b>*</b>, Daniel D Kang<b>*</b>, Nisha Rajagopal, Amira A Barkal, Haoyang Zeng, Bart JM Emons, Sharanya Srinivasan, Tommi Jaakkola, David K Gifford"
+    venue: "Genome research (2016)"
+    paper_pdf: "http://genome.cshlp.org/content/26/10/1430.short"
+    bio: y
+
+  - title: "Cas9 Functionally Opens Chromatin"
+    authors: "Amira A Barkal, Sharanya Srinivasan, Tatsunori B Hashimoto, David K Gifford, Richard I Sherwood"
+    venue: "PloS One (2016)"
+    paper_pdf: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152683"
+    bio: y
+
+  - title: "Cloning-free CRISPR"
+    authors: "Mandana Arbab, Sharanya Srinivasan, Tatsunori B Hashimoto, Niels Geijsen, Richard I Sherwood"
+    venue: "Stem cell reports (2015)"
+    paper_pdf: "http://www.sciencedirect.com/science/article/pii/S2213671115002842"
+    bio: y
+
+  - title: "GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding"
+    authors: "Haoyang Zeng, Tatsunori B Hashimoto, Daniel D Kang, David K Gifford"
+    venue: "Bioinformatics (2015)"
+    paper_pdf: "http://www.sciencedirect.com/science/article/pii/S2213671115002842"
+    bio: y
+
+  - title: "Long-term persistence and development of induced pancreatic beta cells generated by lineage conversion of acinar cells"
+    authors: "Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsunori B Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, Qiao Zhou"
+    venue: "Nature Biotechnology (2014)"
+    paper_pdf: "https://www.nature.com/articles/nbt.3082"
+    bio: y
+
+  - title: "Universal count correction for high-throughput sequencing"
+    authors: "Tatsunori B Hashimoto, Matthew D Edwards, David K Gifford"
+    venue: "PLoS computational biology (2014)"
+    paper_pdf: "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003494"
+    bio: y
+
+  - title: "Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape"
+    authors: "Richard I Sherwood <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Charles W O'donnell <b>*</b>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi Jaakkola, David K Gifford"
+    venue: "Nature Biotechnology (2014)"
+    paper_pdf: "https://www.nature.com/articles/nbt.2798"
+    bio: y
+
+  - title: "Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates"
+    authors: "Kerry A Geiler-Samerotte, Tatsunori B Hashimoto, Michael F Dion, Bogdan A Budnik, Edoardo M Airoldi, D Allan Drummond"
+    venue: "PloS one (2013)"
+    paper_pdf: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075320"
+    bio: y
+
+  - title: "Lineage-based identification of cellular states and expression programs"
+    authors: "Tatsunori B Hashimoto, Tommi Jaakkola, Richard Sherwood, Esteban O. Mazzoni, Hynek Wichterle, David Gifford"
+    venue: "Bioinformatics (2012)"
+    paper_pdf: "http://www.sciencedirect.com/science/article/pii/S2213671115002842"
+    bio: y
+
+  - title: "Finding drug discovery rules of thumb with bump hunting"
+    authors: "Tatsunori B Hashimoto, Matthew Segall"
+    venue: "Proceedings of the ACS (2010)"
+    paper_pdf: "http://www.acscinf.org/content/240-abstracts#S81"
+    bio: y
+
+  - title: "BFL: a node and edge betweenness based fast layout algorithm for large scale networks."
+    authors: "Tatsunori B Hashimoto, Masao Nagasaki, Kaname Kojima, Satoru Miyano"
+    venue: "BMC bioinformatics (2009)"
+    paper_pdf: "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-19"
+    bio: y
+
+
+

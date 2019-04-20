@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>Tatsunori B. Hashimoto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="Academic website for Tatsunori Hashimoto.">
+    <meta name="google-site-verification" content="wiOvonGE569wp-Qd1SQpCtJ5oDwH_4TUadY4_-77ur4" />
+    <!-- Styles -->
+    <link rel="stylesheet" media="all" href="./dist/css/plain.css">
+    <!-- /Styles -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#resumeNavigationScrollSpy" data-offset="70">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3 resume-profile">
+
+                <img width="250" src="./thashim.jpg" class="img-thumbnail" alt="Tatsu Hashimoto">
+
+                <h1>
+                    Tatsunori B. Hashimoto
+                    <small class="text-muted">
+                        Post-Doc @ Stanford
+                    </small>
+                </h1>
+
+                <ul class="list-unstyled">
+                    <li>Location: Stanford University</li>
+                    <li>Email: thashim [at] stanford.edu</a></li>
+                    <!-- <li>Website: <a href="https://test.com">yourwebsite.com</a></li> -->
+                    <!-- <li>Tel: <a href="tel://+12345678912">+1 12345678912</a></li> -->
+                </ul>
+
+                <ul class="list-unstyled">
+                    <li>
+                        Google Scholar: <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">profile</a>
+                    </li>
+                    <li>
+                        Github: <a href="https://github.com/thashim" target="_blank">thashim</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.resume-profile -->
+
+            <div class="col-xs-12 col-sm-8 col-md-6 resume-info">
+
+                <section class="resume-info-section">
+                    <h2 id="introduction">About</h2>
+                    <p class="lead text-justify">
+                      I am currently a post-doc at Stanford working for <a href=https://web.stanford.edu/~jduchi/ target="_blank">John C. Duchi</a> and <a href=https://cs.stanford.edu/~pliang/ target="_blank">Percy Liang</a> on various tradeoffs
+                      between the average and worst-case performance of machine learning models. Broadly I am interested in questions of model coverage -- do prediction models work well outside the typical case, and do generative models have sufficient diversity to generate atypical samples? 
+                    </p>
+                    <p class="lead text-justify">
+                      Before that, I was a graduate student at MIT co-advised by <a href=https://people.csail.mit.edu/tommi/ target="_blank">Tommi Jaakkola</a> and <a href=http://cgs.csail.mit.edu/ target="_blank">David Gifford</a>, and a undergraduate student at Harvard in statistics and math advised by <a href=http://www.people.fas.harvard.edu/~airoldi/ target="_blank">Edoardo Airoldi</a>.
+                    </p>
+                </section>
+
+                <section class="resume-info-section">
+                  <h2 id="publication">Publications</h2>
+                  <h3 id="unpub"> Unpublished preprints and manuscripts</h3>
+
+                  
+
+
+                                        <div class="resume-info-section-block">
+                        <h4>
+                          Distributionally Robust Losses Against Mixture Covariate Shifts
+                          <small>John C. Duchi, Tatsunori B Hashimoto, Hongseok Namkoong</small>
+                        </h4>
+                        <p>
+                          Improves distributionally robust estimators for subgroup losses (such as those in Hashimoto 2018) for prediction tasks where the conditional distribution remains the same across groups (i.e. covariate shifts). (<a href=preprints/condrisk.pdf target="_blank">Link</a>)
+                        </p>
+                                        </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Unifying Human and Statistical Evaluation for Natural Language Generation
+                          <small>Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019, To appear)</small>
+                          <small>Tatsunori B Hashimoto<sup>*</sup>, Hugh Zhang<sup>*</sup>, Percy Liang</small>
+                        </h4>
+                        <p>
+                          An evaluation method for natural language generation systems that rigorously quantifies whether a model has both high-quality outputs (as judged by human evaluation) as well as high-diversity (as judge by a statistical divergence). (<a href=preprints/nlg-paper.pdf target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <h3 id="statml"> Statistics and Machine Learning</h3>
+
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          A Retrieve-and-Edit Framework for Predicting Structured Outputs
+                          <small>Advances in Neural Information Processing Systems 31 (NeurIPS 2018)</small>
+                          <small>Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, Percy Liang</small>
+                        </h4>
+                        <p>
+                          Proposes a retrieval mechanisms based on noisy embeddings into the surface of a hypersphere which guarantee that retrieved examples can be edited into the desired outputs under an information-theoretically optimal edit model. (<a href=http://arxiv.org/abs/1812.01194 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Generating Sentences by Editing Prototypes
+                          <small>Transactions of the Association of Computational Linguistics (TACL/ACL 2018) </small>
+                          <small>Kelvin Guu<sup>*</sup>, Tatsunori B Hashimoto<sup>*</sup>, Yonatan Oren, Percy Liang</small>
+                          <small><sup>*</sup> - Equal contribution </small>
+                        </h4>
+                        <p>
+                          A new generative model for text based upon learning an edit model which can generate lexically similar sentences. (<a href=https://arxiv.org/abs/1709.08878 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Fairness Without Demographics in Repeated Loss Minimization
+                          <small>Proceedings of the 35th International Conference on Machine Learning (ICML 2018, Best paper runner up)</small>
+                          <small>Tatsunori B Hashimoto, Megha Srivastava, Hongseok Namkoong, Percy Liang</small>
+                        </h4>
+                        <p>
+                          Proposes unfairness in machine learning arising from the use of empirical loss minimization, and amplification of unfairness in iterated settings. Suggests a distributionally robust optimization procedure for bounding losses incurred by minority groups without access to explicit demographic labels. (<a href=https://arxiv.org/abs/1806.08010 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Derivative free optimization via repeated classification
+                          <small>21st International Conference on Artificial Intelligence and Statistics (AISTATS 2018)
+                          </small>
+                          <small>Tatsunori B Hashimoto, Steve Yadlowsky, John C Duchi</small>
+                        </h4>
+                        <p>
+                          An approach for reducing derivative free optimization into repeated classification problems over sublevel sets. (<a href=https://arxiv.org/abs/1804.03761 target="_blank">Link</a>)
+                        </p>
+                    </div>
+                    
+                    
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Unsupervised Transformation Learning via Convex Relaxations
+                          <small>Advances in Neural Information Processing Systems 30 (NeurIPS 2017) </small>
+                          <small>Tatsunori B Hashimoto, Percy S Liang, John C Duchi</small>
+                        </h4>
+                        <p>
+                          Proposes a new approach to learning continuous structure in data by learning transformations between nearby data points. (<a href=http://papers.nips.cc/paper/7263-unsupervised-transformation-learning-via-convex-relaxations target="_blank">Link</a>)
+                        </p>
+                    </div>
+                    
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Word embeddings as metric recovery in semantic spaces
+                          <small>Transactions of the Association for Computational Linguistics 4 (TACL 2016) </small>
+                          <small>Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola</small>
+                        </h4>
+
+                        <p>
+                          Demonstrates an equivalence between learning word vectors and recovering a metric space consistent with semantic similarity judgements. (<a href=https://transacl.org/ojs/index.php/tacl/article/view/809 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Continuous representations and models from random walk diffusion limits
+                          <small>PhD Thesis, MIT CSAIL, 2016</small>
+                        </h4>
+                        <p>
+                          Describes several applications of the random walk diffusion limit developed in our AISTAT paper for learning metrics over graphs and word embeddings. (<a href=https://dspace.mit.edu/handle/1721.1/105670 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          From random walks to distances on unweighted graphs
+                          <small>Advances in Neural Information Processing Systems (NeurIPS 2015)</small>
+                          <small> Tatsunori Hashimoto, Yi Sun, Tommi Jaakkola </small>
+                        </h4> 
+
+                        <p>
+                          Derives a weighted hitting time metric over graphs which consistently and robustly recovers the underlying metric structure of a graph. (<a href=http://papers.nips.cc/paper/6009-from-random-walks-to-distances-on-unweighted-graphs target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Metric recovery from directed unweighted graphs
+                          <small>Artificial Intelligence and Statistics (AISTATS 2015),
+                            NeurIPS 2014 networks workshop (Best poster)</small>
+                          <small> Tatsunori Hashimoto, Yi Sun, Tommi Jaakkola </small>
+                        </h4>
+                        <p>
+                          Derives a new limiting expression for random walks on unweighted graphs that allows for closed-form calculation of metric quantities such as density and similarity. (<a href=http://proceedings.mlr.press/v38/hashimoto15.html target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Tree preserving embedding
+                          <small>Proceedings of the 28th International Conference on Machine Learning (ICML 2011)</small>
+                          <small>Albert D Shieh, Tatsunori B Hashimoto, Edoardo M Airoldi</small>
+                        </h4> 
+
+                        <p>
+                          Proposes a new dimensionality reduction algorithm which maintains cluster structure. (<a href=https://dl.acm.org/citation.cfm?id=3104577 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          BFL: a node and edge betweenness based fast layout algorithm for large scale networks.
+                          <small>BMC bioinformatics (2009)</small>
+                          <small>Tatsunori B Hashimoto, Masao Nagasaki, Kaname Kojima, Satoru Miyano</small>
+                        </h4> 
+
+                        <p>
+                          A graph layout algorithm which allocates computation time based on centrality measures. (<a href=https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-19?site=http://bmcbioinformatics.biomedcentral.com target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    
+                    <h3 id="compbio"> Computational Biology and Chemistry</h3>
+
+                    
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          A synergistic DNA logic predicts genome-wide chromatin accessibility
+                          <small>Genome research (2016)</small>
+                          <small>Tatsunori Hashimoto<sup>*</sup>, Richard I Sherwood<sup>*</sup>, Daniel D Kang<sup>*</sup>, Nisha Rajagopal, Amira A Barkal, Haoyang Zeng, Bart JM Emons, Sharanya Srinivasan, Tommi Jaakkola, David K Gifford</small>
+                          <small><sup>*</sup> - Equal contribution</small>
+                        </h4> 
+                        <p>
+                          Demonstrates the effectiveness of a convolutional log-linear model for chromain accessibility. (<a href=http://genome.cshlp.org/content/26/10/1430.short target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Learning Population-Level Diffusions with Generative RNNs
+                          <small>Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)</small>
+                          <small> Tatsunori Hashimoto, David Gifford, Tommi Jaakkola </small>
+                        </h4> 
+                        <p>
+                          Derives recovery conditions for learning differentiation dynamics from single-cell population data. (<a href=http://proceedings.mlr.press/v48/hashimoto16.pdf target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Cas9 Functionally Opens Chromatin
+                          <small> PloS One (2016)</small>
+                          <small> Amira A Barkal, Sharanya Srinivasan, Tatsunori Hashimoto, David K Gifford, Richard I Sherwood </small>
+                        </h4> 
+                        <p>
+(<a href=http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152683 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Cloning-free CRISPR
+                          <small> Stem cell reports (2015) </small>
+                          <small> Mandana Arbab, Sharanya Srinivasan, Tatsunori Hashimoto, Niels Geijsen, Richard I Sherwood</small>
+                        </h4> 
+                        <p>
+                           (<a href=http://www.sciencedirect.com/science/article/pii/S2213671115002842 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          GERV: a statistical method for generative evaluation of regulatory variants for transcription factor binding
+                          <small> Bioinformatics (2015) </small>
+                          <small> Haoyang Zeng, Tatsunori Hashimoto, Daniel D Kang, David K Gifford</small>
+                        </h4> 
+                        <p>
+                           (<a href=http://www.sciencedirect.com/science/article/pii/S2213671115002842 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Long-term persistence and development of induced pancreatic beta cells generated by lineage conversion of acinar cells
+                          <small> Nature Biotechnology (2014) </small>
+                          <small> Weida Li, Claudia Cavelti-Weder, Yinying Zhang, Kendell Clement, Scott Donovan, Gabriel Gonzalez, Jiang Zhu, Marianne Stemann, Ke Xu, Tatsunori Hashimoto, Takatsugu Yamada, Mio Nakanishi, Yuemei Zhang, Samuel Zeng, David Gifford, Alexander Meissner, Gordon Weir, Qiao Zhou
+</small>
+                        </h4> 
+                        <p>
+                          (<a href=https://www.nature.com/articles/nbt.3082 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Universal count correction for high-throughput sequencing
+                          <small> PLoS computational biology (2014) </small>
+                          <small> Tatsunori Hashimoto, Matthew D Edwards, David K Gifford
+</small>
+                        </h4> 
+                        <p>
+                          Proposes a new preprocessing technique to mitigate the effects of overdispersed count data using log-concave distributions
+                          (<a href=http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003494 target="_blank">Link</a>).
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape
+                          <small> Nature Biotechnology (2014)</small>
+                          <small> Richard I Sherwood <sup>*</sup>, Tatsunori Hashimoto <sup>*</sup>, Charles W O'donnell <sup>*</sup>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi Jaakkola, David K Gifford
+                          </small>
+                          <small><sup>*</sup> - Equal contribution</small>
+                        </h4> 
+                        <p>
+                          A new model for estimating transcription factor binding using DNase-I accessibility data, and observations on the behavior of pioneer transcription factors. (<a href=https://www.nature.com/articles/nbt.2798 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates
+                          <small> PloS one (2013) </small>
+                          <small> Kerry A Geiler-Samerotte, Tatsunori Hashimoto, Michael F Dion, Bogdan A Budnik, Edoardo M Airoldi, D Allan Drummond
+</small>
+                        </h4> 
+                        <p>
+                          (<a href=http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075320 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Lineage-based identification of cellular states and expression programs
+                          <small> Bioinformatics (2012) </small>
+                          <small> Tatsunori Hashimoto, Tommi Jaakkola, Richard Sherwood, Esteban O. Mazzoni, Hynek Wichterle, David Gifford.</small>
+                        </h4> 
+                        <p>
+                          A matrix factorization based approach for extracting interpretable sets of gene modules which differ over differentiation. (<a href=http://www.sciencedirect.com/science/article/pii/S2213671115002842 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                        <h4>
+                          Finding drug discovery rules of thumb with bump hunting
+                          <small> Proceedings of the ACS (2010) </small>
+                          <small> Tatsunori Hashimoto, Matthew Segall</small>
+                        </h4> 
+                        <p>
+                          A technique for deriving interpretable decision rules for drug discovery. (<a href=http://www.acscinf.org/content/240-abstracts#S81 target="_blank">Link</a>)
+                        </p>
+                    </div>
+
+                </section>
+
+                <section class="resume-info-section">
+                    <h2 id="experience">Experience</h2>
+                    <div class="resume-info-section-block">
+                        <h4>
+                            MIT
+                            <small> – PhD student.</small>
+                        </h4>
+                        <p>
+                            <small>
+                                2011 → 2016
+                            </small>
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                      <h4>
+                            RIKEN BSI
+                            <small> – Intern.</small>
+                        </h4>
+                        <p>
+                            <small>
+                                2007 → 2011
+                            </small>
+                        </p>
+                    </div>
+
+                    <div class="resume-info-section-block">
+                      <h4>
+                            Optibrium LTD
+                            <small> – Intern.</small>
+                        </h4>
+                        <p>
+                            <small>
+                                2010
+                            </small>
+                        </p>
+                      </div>
+                    
+                    <div class="resume-info-section-block">
+                      <h4>
+                            Harvard University
+                            <small> – Undergraduate Student.</small>
+                        </h4>
+                        <p>
+                            <small>
+                                2007 → 2011
+                            </small>
+                        </p>
+                   </div>
+
+                </section>
+ 
+            </div>
+            <!-- /.resume-info -->
+
+            <div id="resumeNavigationScrollSpy" class="col-md-3">
+                <ul class="nav nav nav-pills nav-stacked resume-navigation hidden-print hidden-sm hidden-xs" data-spy="affix" data-offset-top="0">
+                    <li>
+                        <a href="#introduction">Introduction</a>
+                    </li>
+                    <li>
+                      <a href="#publication">Publications</a>
+                      <ul class="nav nav nav-pills nav-stacked">
+                        <li><a href="#unpub">Unpublished Manuscripts and Preprints</a></li>
+                            <li><a href="#statml">Statistics and Machine Learning</a></li>
+                            <li><a href="#compbio">Computational Biology and Chemistry</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+
+                    </li>
+
+                </ul>
+                <!-- /.resume-navigation -->
+            </div> <!-- /#resumeNavigationScrollSpy -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.Container -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="./dist/js/app.js"></script>
+    <!-- /Javscript -->
+</body>
+
+</html>

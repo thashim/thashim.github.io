@@ -1,0 +1,28 @@
+students:
+    - name: "Hugh Zhang"
+      time: "2019-"
+      place: "Undergrad (with Percy Liang)"
+      category: "current"
+
+    - name: "Megha Srivastava"
+      time: "2018-"
+      place: "Undergrad (with Percy Liang)"
+      category: "current"
+
+    - name: "Yonatan Oren"
+      time: "2017-"
+      place: "Undergrad (with Percy Liang and Kelvin Guu)"
+      category: "current"
+
+    - name: "Logan Engstrom"
+      time: "2015-2016"
+      place: "High school / MIT Undergrad (with David Gifford)"
+      current: "Now Ph.D. student at MIT"
+      category: "former"
+
+    - name: "Daniel Kang"
+      time: "2015-2016"
+      place: "MIT Undergrad (with David Gifford)"
+      current: "Now Ph.D. student at Stanford"
+      category: "former"
+

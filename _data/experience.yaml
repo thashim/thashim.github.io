@@ -1,0 +1,36 @@
+experiences:
+- place: "Stanford CS / Statistics"
+  time: "2016 - now"
+  title: "Postdoc"
+  subtitle: "Working for Percy Liang + John Duchi"
+  category: "work"
+
+- place: "MIT CSAIL"
+  time: "2011 - 2016"
+  title: "Ph.D."
+  subtitle: "Advised by Tommi Jaakkola + David Gifford"
+  category: "school"
+
+- place: "RIKEN BSI"
+  time: "2007 - 2011"
+  title: "Intern"
+  subtitle: "Laboratory for neural circuit theory"
+  category: "work"
+
+- place: "Optibrium LTD"
+  time: "Summer 2010"
+  title: "Summer Intern"
+  subtitle: "ML engineer"
+  category: "work"
+
+- place: "Harvard University"
+  time: "2007 - 2011"
+  title: "Undergraduate"
+  subtitle: Cum laude and departmental honors in Statistics and Math. Advised by Edoardo Airoldi.
+  category: "school"
+
+- place: "U. Tokyo Institute of Medical Science"
+  time: "2006 - 2007"
+  title: "Intern and Translator"
+  subtitle: "Miyano research lab"
+  category: "work"

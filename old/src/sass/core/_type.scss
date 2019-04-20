@@ -1,0 +1,62 @@
+
+//
+// Typography
+// --------------------------------------------------
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1.5;
+    color: $headings-small-color;
+  }
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: $line-height-computed; //inline with our vertical rhythm
+  margin-bottom: ($line-height-computed - 4); //inline with our vertical rhythm
+}
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: ($line-height-computed - 4); //inline with our vertical rhythm
+  margin-bottom: ($line-height-computed - 4); //inline with our vertical rhythm
+}
+
+
+// Body text
+// -------------------------
+
+p {
+    margin: 0 0 ($line-height-computed - 8); //inline with our vertical rhythm
+
+    // &:last-child{
+    // 	margin-bottom: 0px;
+    // }
+}
+
+.lead {
+//   margin-bottom: $line-height-computed;
+//   font-size: floor(($font-size-base * 1.15));
+//   font-weight: 300;
+//   line-height: 1.4;
+     color: $gray-light;
+    font-size: floor(($font-size-base * 1.25)); //21px
+    line-height: 1.5; //multipe of 7 for a consistent vertical rhythm
+
+//   @media (min-width: $screen-sm-min) {
+//     font-size: ($font-size-base * 1.5);
+//   }
+}

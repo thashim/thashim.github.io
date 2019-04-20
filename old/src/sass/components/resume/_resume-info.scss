@@ -1,0 +1,55 @@
+
+.resume-info{
+
+    .resume-info-section{
+        margin-bottom: 88px; //multiple of 8 for a consistent vertical rhythm with out 16px base font size
+
+        > h2{
+            margin-top: 0px;
+            @include after-heading-underline;
+        }
+    }
+
+    .resume-info-section-block{
+        margin-bottom: ($grid-gutter-width - 16);
+        @include after-section-underline;
+
+        &:last-child:after{
+            content: "";
+            display: none;
+        }
+
+        > h4 small{
+            display: block;
+        }
+
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+    
+
+    li{
+        padding-bottom: 16px;
+    }
+    
+
+    .tag-list{
+        li{
+            background-color: $taglist-item-bg-color; 
+            display: inline-block;
+            padding: 4px 8px 4px 8px;
+            margin: 0 4px 8px 0;
+        }
+    }
+
+    .skill-list{
+        .progress{
+            height: ($font-size-base / 2);
+            margin-bottom: 0;
+        }
+        .progress,.progress-bar{
+          box-shadow: none;
+        }
+    }
+}
