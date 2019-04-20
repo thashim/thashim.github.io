@@ -1,4 +1,4 @@
-# Martin Saveski's Website
+# My website (based on martin saveski's template)
 
 ## Things to change
 baseurl in _config.yml
@@ -14,18 +14,6 @@ Test changes with:
 ```
 jekyll serve
 ```
-
-Push to the ML web directory:
-```
-rm -rf public_html
-mkdir public_html
-```
-```
-./__deploy.sh
-```
-
-More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
-
 
 ## External Libraries
 - Framework: [Jekyll](http://jekyllrb.com/)
