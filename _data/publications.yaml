@@ -15,7 +15,7 @@ papers:
 
   - title: "Unifying Human and Statistical Evaluation for Natural Language Generation"
     authors: "Tatsunori B Hashimoto<b>*</b>, Hugh Zhang<b>*</b>, Percy Liang"
-    venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019, To appear)"
+    venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)"
     paper_pdf: "/assets/publications/nlg-paper.pdf"
     nlp: y
 

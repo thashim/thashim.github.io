@@ -1,7 +1,7 @@
 h4 {
   letter-spacing: .1rem; }
 .container {
-  max-width: 800px; }
+  max-width: 900px; }
 .header {
   margin-top: 60px;
   margin-bottom: 60px; 
@@ -20,13 +20,14 @@ h4 {
 .paper p {
   margin-bottom: 2px }
 .paper-buttons {
-  margin-top: 5px }
+    margin-top: 2px }
 .paper .button {
   display: inline-block;
-  height: 25px;
-  padding: 0 25px;
+  height: 20px;
+  padding: 0 5px;
   font-weight: 100;
-  line-height: 25px;
+  line-height: 20px;
+  margin-bottom: 0px;
   text-transform: none; }
 .section-header {
   text-transform: uppercase;
