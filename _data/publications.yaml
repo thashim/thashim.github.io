@@ -4,6 +4,7 @@ papers:
     authors: "John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong"
     venue: "Preprint"
     paper_pdf: "/assets/publications/condrisk.pdf"
+    selected: y
     statsml: y
     nlp: n
     bio: n
@@ -17,6 +18,7 @@ papers:
     authors: "Tatsunori B Hashimoto<b>*</b>, Hugh Zhang<b>*</b>, Percy Liang"
     venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)"
     paper_pdf: "/assets/publications/nlg-paper.pdf"
+    selected: y    
     nlp: y
 
   - title: "A Retrieve-and-Edit Framework for Predicting Structured Outputs"
@@ -30,12 +32,14 @@ papers:
     authors: "Kelvin Guu<b>*</b>, Tatsunori B Hashimoto<b>*</b>, Yonatan Oren, Percy Liang"
     venue: "Transactions of the Association of Computational Linguistics (TACL, presented at ACL 2018)"
     paper_pdf: "https://arxiv.org/abs/1709.08878"
+    selected: y    
     nlp: y
 
   - title: "Fairness Without Demographics in Repeated Loss Minimization"
     authors: "Tatsunori B Hashimoto, Megha Srivastava, Hongseok Namkoong, Percy Liang"
     venue: "Proceedings of the 35th International Conference on Machine Learning (ICML 2018, Best paper runner up)"
     paper_pdf: "https://arxiv.org/abs/1806.08010"
+    selected: y    
     statsml: y
 
   - title: "Derivative free optimization via repeated classification"
@@ -63,6 +67,7 @@ papers:
     authors: "Tatsunori B Hashimoto, David Alvarez-Melis, Tommi S Jaakkola"
     venue: "Transactions of the Association for Computational Linguistics 4 (TACL,  presented at ACL 2016)"
     paper_pdf: "https://transacl.org/ojs/index.php/tacl/article/view/809"
+    selected: y    
     statsml: y
     nlp: y
 
@@ -84,6 +89,7 @@ papers:
     venue: "Artificial Intelligence and Statistics (AISTATS 2015), (best poster at 
 NeurIPS 2014 workshop on networks)"
     paper_pdf: "http://proceedings.mlr.press/v38/hashimoto15.html"
+    selected: y
     statsml: y
 
   - title: "A synergistic DNA logic predicts genome-wide chromatin accessibility"
@@ -126,6 +132,7 @@ NeurIPS 2014 workshop on networks)"
     authors: "Richard I Sherwood <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Charles W O'donnell <b>*</b>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi Jaakkola, David K Gifford"
     venue: "Nature Biotechnology (2014)"
     paper_pdf: "https://www.nature.com/articles/nbt.2798"
+    selected: y
     bio: y
 
   - title: "Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates"

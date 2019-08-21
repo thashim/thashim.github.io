@@ -6,7 +6,13 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-    From fall 2019 to 2020 I will be at Microsoft Semantic Machines as a researcher. In fall 2020, I will be starting as an assistant professor at the computer science department at Stanford to continue my research on reliability of machine learning and NLP systems. Machine learning systems do well on their training domain, but often fail in dramatic and unexpected ways in the wild. I view these problems as <i>coverage</i> issues - systems can appear to do well even if they fail on rare examples (in prediction) or plagiarize from the training set (in generation). My work seeks to develop evaluations, representations, and training procedures to guarantee uniform, rather than just average case performance of machine learning models.
+    From fall 2019 to 2020 I will be at Microsoft Semantic Machines as a researcher.
+  </p>
+  <p>
+    Starting fall 2020, I will be starting as an assistant professor at the computer science department at Stanford.
+</p>
+    <p>
+    Machine learning systems do well on their training domain, but often fail in dramatic and unexpected ways in the wild. I view these problems as <i>coverage</i> issues - systems can appear to do well even if they fail on rare examples (in prediction) or plagiarize from the training set (in generation). My work seeks to develop evaluations, representations, and training procedures to guarantee uniform, rather than just average case performance of machine learning models.
   </p>
   <p>
     Previously, I was a post-doc at Stanford working for <a href=https://web.stanford.edu/~jduchi/ target="_blank">John C. Duchi</a> and <a href=https://cs.stanford.edu/~pliang/ target="_blank">Percy Liang</a> on tradeoffs between the average and worst-case performance of machine learning models. Before my post-doc, I was a graduate student at MIT co-advised by <a href=https://people.csail.mit.edu/tommi/ target="_blank">Tommi Jaakkola</a> and <a href=http://cgs.csail.mit.edu/ target="_blank">David Gifford</a> and a undergraduate student at Harvard in statistics and math advised by <a href=http://www.people.fas.harvard.edu/~airoldi/ target="_blank">Edoardo Airoldi</a>.
@@ -22,15 +28,79 @@ title: Home
   <p>Most recent publications on <a href="https://scholar.google.com/citations?user=5ygiTwsAAAAJ" target="_blank">Google Scholar</a>.</p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-ML">Stats+ML</div></li>
+    <li><div class="button active" data-ref="#papers-sel">Selected Papers</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>    
+    <li><div class="button" data-ref="#papers-ML">Stats+ML</div></li>
     <li><div class="button" data-ref="#papers-NLP">NLP</div></li>
     <li><div class="button" data-ref="#papers-Bio">Comp Bio</div></li>
   </ul>
 
   <div class="tab-content">
 
+    <div class="tab-pane active" id="papers-sel">
+      {% assign papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- All PAPERS -->
+    <div class="tab-pane" id="papers-all">
+      {% assign papers = site.data.publications.papers %}
+      {% for paper in papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b>
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    
+
     <!-- ML PAPERS -->
-    <div class="tab-pane active" id="papers-ML">
+    <div class="tab-pane" id="papers-ML">
       {% assign ml_papers = site.data.publications.papers | where: "statsml", "y" %}
       {% for paper in ml_papers %}
         <div class="paper">
@@ -177,13 +247,6 @@ title: Home
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
@@ -212,41 +275,10 @@ title: Home
           </div>
         {% endif %}
       {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
 
 </div>
 -->
+
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
