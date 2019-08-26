@@ -242,10 +242,19 @@ title: Home
 --->
 
 <!-- ========== PROJECTS ========== -->
-
-<!--
-<div class="docs-section" id="projects">
   <h4>Projects</h4>
+
+<div class="docs-section" id="projects">
+<!--
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#proj-cur">Current Projects</div></li>
+    <li><div class="button" data-ref="#proj-past">Past</div></li>    
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="proj-cur">
+--!>
+
 
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
@@ -264,7 +273,9 @@ title: Home
                 </div>
 
                 <div class="project-caption">
+                  <center>
                   <b>{{ project.title }}</b> <br/>
+                  </center>
                   {{ project.subtitle }}
                 </div>
 
@@ -275,9 +286,12 @@ title: Home
           </div>
         {% endif %}
       {% endfor %}
+<!---      </div>
+   </div>
+---!>
 
 </div>
--->
+
 
 
 <!-- ========== RESUME ========== -->

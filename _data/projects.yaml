@@ -1,12 +1,18 @@
 projects:
   - title: "Distributionally Robust Models"
-    subtitle: "Training methods to make models perform uniformly"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
+    subtitle: "Training methods to make models perform uniformly well over a population."
+    thumbnail: "assets/projects/2018-dro.png"
+    url: "projects/2018-dro.html"
     selected: y
 
   - title: "Diverse Natural Language Generation"
-    subtitle: "Methods for quantifying and improving the diversity of generation systems"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
+    subtitle: "Methods for quantifying and improving the diversity of generation systems."
+    thumbnail: "assets/projects/2018-nlg.png"
+    url: "projects/2018-nlg.html"
+    selected: y
+
+  - title: "Representations from Random Walks"
+    subtitle: "Understanding learned representations (such as word embeddings) through random walks."
+    thumbnail: "assets/projects/2016-embed.png"
+    url: "projects/2016-embed.html"
     selected: y
