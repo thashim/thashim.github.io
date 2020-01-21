@@ -1,5 +1,24 @@
 papers:
 
+  - title: "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-case Generalization"
+    authors: "Shiori Sagawa<b>*</b>, Pang Wei Koh<b>*</b>, Tatsunori B Hashimoto, Percy Liang"
+    venue: "International Conference on Learning Representations (ICLR 2020, To Appear)"
+    selected: y
+    statsml: y
+
+  - title: "Learning Autocomplete Systems as a Communication Game"
+    authors: "Mina Lee, Tatsunori B Hashimoto, Percy Liang"
+    venue: "Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS 2019)"
+    nlp: y
+
+  - title: "Distributionally Robust Language Modeling"
+    authors: "Yonatan Oren<b>*</b>, Shiori Sagawa <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Percy Liang"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP 2019)"
+    paper_pdf: "https://arxiv.org/abs/1909.02060"
+    selected: y
+    nlp: y
+
+
   - title: "Distributionally Robust Losses Against Mixture Covariate Shifts"
     authors: "John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong"
     venue: "Preprint"
@@ -12,6 +31,7 @@ papers:
   - title: "Inferring Multidimensional Rates of Aging from Cross-Sectional Data"
     authors: "Emma Pierson<b>*</b>, Pang Wei Koh <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Daphne Koller, Jure Lesokevic, Nicholas Eriksson, Percy Liang"
     venue: 22nd International Conference on Artificial Intelligence and Statistics (AISTATS 2019)
+    paper_pdf: "https://arxiv.org/abs/1807.04709"
     bio: y
 
   - title: "Unifying Human and Statistical Evaluation for Natural Language Generation"
