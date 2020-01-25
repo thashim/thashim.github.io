@@ -1,6 +1,12 @@
 experiences:
+- place: "Microsoft Semantic Machines"
+  time: "2019 - now"
+  title: "Researcher"
+  subtitle: ""
+  category: "work"
+
 - place: "Stanford CS / Statistics"
-  time: "2016 - now"
+  time: "2016 - 2019"
   title: "Postdoc"
   subtitle: "Working for Percy Liang + John Duchi"
   category: "work"
