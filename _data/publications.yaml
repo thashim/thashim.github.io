@@ -1,14 +1,36 @@
 papers:
 
+  - title: "Approximate Selection with Guarantees using Proxies"
+    authors: "Daniel Kang<b>*</b>, Edward Gan<b>*</b>, Peter Bailis, Tatsunori B Hashimoto, Matei Zaharia"
+    venue: "International Conference on Very Large Data Bases (VLDB 2020, To Appear)"
+    paper_pdf: https://arxiv.org/abs/2004.00827
+    selected: y
+    statsml: y
+
+  - title: "Improved Natural Language Generation via Loss Truncation"
+    authors: "Daniel Kang, Tatsunori B Hashimoto"
+    venue: "Annual Meeting of the Association of Computational Linguistics (ACL 2020, To Appear)"
+    paper_pdf: https://arxiv.org/abs/2004.14589
+    nlp: y
+    selected: y
+
+  - title: "Robustness to Spurious Correlations via Human Annotations"
+    authors: "Megha Srivastava, Tatsunori B Hashimoto, Percy Liang"
+    venue: "International Conference on Machine Learning (ICML 2020, To Appear)"
+    statsml: y
+    selected: y
+
   - title: "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-case Generalization"
     authors: "Shiori Sagawa<b>*</b>, Pang Wei Koh<b>*</b>, Tatsunori B Hashimoto, Percy Liang"
-    venue: "International Conference on Learning Representations (ICLR 2020, To Appear)"
+    venue: "International Conference on Learning Representations (ICLR 2020)"
+    paper_pdf: https://arxiv.org/abs/1911.08731
     selected: y
     statsml: y
 
   - title: "Learning Autocomplete Systems as a Communication Game"
     authors: "Mina Lee, Tatsunori B Hashimoto, Percy Liang"
     venue: "Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS 2019)"
+    paper_pdf: https://arxiv.org/abs/1911.06964
     nlp: y
 
   - title: "Distributionally Robust Language Modeling"
@@ -92,20 +114,20 @@ papers:
     nlp: y
 
   - title: "Learning Population-Level Diffusions with Generative RNNs"
-    authors: "Tatsunori B Hashimoto, David Gifford, Tommi Jaakkola"
+    authors: "Tatsunori B Hashimoto, David Gifford, Tommi S Jaakkola"
     venue: "Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)"
     paper_pdf: "http://proceedings.mlr.press/v48/hashimoto16.pdf"
     bio: y
     statsml: y
 
   - title: "From random walks to distances on unweighted graphs"
-    authors: "Tatsunori B Hashimoto, Yi Sun, Tommi Jaakkola"
+    authors: "Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola"
     venue: "Advances in Neural Information Processing Systems (NeurIPS 2015)"
     paper_pdf: "http://papers.nips.cc/paper/6009-from-random-walks-to-distances-on-unweighted-graph"
     statsml: y
 
   - title: "Metric recovery from directed unweighted graphs"
-    authors: "Tatsunori B Hashimoto, Yi Sun, Tommi Jaakkola"
+    authors: "Tatsunori B Hashimoto, Yi Sun, Tommi S Jaakkola"
     venue: "Artificial Intelligence and Statistics (AISTATS 2015), (best poster at 
 NeurIPS 2014 workshop on networks)"
     paper_pdf: "http://proceedings.mlr.press/v38/hashimoto15.html"
@@ -113,7 +135,7 @@ NeurIPS 2014 workshop on networks)"
     statsml: y
 
   - title: "A synergistic DNA logic predicts genome-wide chromatin accessibility"
-    authors: "Tatsunori B Hashimoto<b>*</b>, Richard I Sherwood<b>*</b>, Daniel D Kang<b>*</b>, Nisha Rajagopal, Amira A Barkal, Haoyang Zeng, Bart JM Emons, Sharanya Srinivasan, Tommi Jaakkola, David K Gifford"
+    authors: "Tatsunori B Hashimoto<b>*</b>, Richard I Sherwood<b>*</b>, Daniel D Kang<b>*</b>, Nisha Rajagopal, Amira A Barkal, Haoyang Zeng, Bart JM Emons, Sharanya Srinivasan, Tommi S Jaakkola, David K Gifford"
     venue: "Genome research (2016)"
     paper_pdf: "http://genome.cshlp.org/content/26/10/1430.short"
     bio: y
@@ -149,10 +171,10 @@ NeurIPS 2014 workshop on networks)"
     bio: y
 
   - title: "Discovery of directional and nondirectional pioneer transcription factors by modeling DNase profile magnitude and shape"
-    authors: "Richard I Sherwood <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Charles W O'donnell <b>*</b>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi Jaakkola, David K Gifford"
+    authors: "Richard I Sherwood <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Charles W O'donnell <b>*</b>, Sophia Lewis, Amira A Barkal, John Peter Van Hoff, Vivek Karun, Tommi S Jaakkola, David K Gifford"
     venue: "Nature Biotechnology (2014)"
     paper_pdf: "https://www.nature.com/articles/nbt.2798"
-    selected: y
+    selected: n
     bio: y
 
   - title: "Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates"
@@ -162,7 +184,7 @@ NeurIPS 2014 workshop on networks)"
     bio: y
 
   - title: "Lineage-based identification of cellular states and expression programs"
-    authors: "Tatsunori B Hashimoto, Tommi Jaakkola, Richard Sherwood, Esteban O. Mazzoni, Hynek Wichterle, David Gifford"
+    authors: "Tatsunori B Hashimoto, Tommi S Jaakkola, Richard Sherwood, Esteban O. Mazzoni, Hynek Wichterle, David Gifford"
     venue: "Bioinformatics (2012)"
     paper_pdf: "http://www.sciencedirect.com/science/article/pii/S2213671115002842"
     bio: y
