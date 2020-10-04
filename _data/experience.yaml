@@ -1,6 +1,12 @@
 experiences:
+- place: "Stanford CS"
+  time "2020 - now"
+  title: "Assistant professor"
+  subtitle: ""
+  category: "work"
+  
 - place: "Microsoft Semantic Machines"
-  time: "2019 - now"
+  time: "2019 - 2020"
   title: "Researcher"
   subtitle: ""
   category: "work"
