@@ -1,22 +1,41 @@
 papers:
+  - title: "Modeling the Second Player in Distributionally Robust Optimization"
+    authors: "Paul Michel, Tatsunori B. Hashimoto, Graham Neubig"
+    venue: "International Conference on Learning Representations (ICLR 2021)"
+    paper_pdf: https://openreview.net/pdf?id=ZDnzZrTqU9N
+    statsml: y
+    selected: y
+
+  - title: "Task-agnostic Indexes for Deep Learning-based Queries over Unstructured Data"
+    authors: "Daniel Kang, John Guibas, Peter Bailis, Tatsunori Hashimoto, Matei Zaharia"
+    venue: "Preprint"
+    paper_pdf: https://arxiv.org/pdf/2009.04540.pdf
+    statsml: y
+  
+  - title: "The Disagreement Deconvolution: Bringing Machine Learning Performance Metrics In Line With Reality"
+    authors: "Mitchell L Gordon, Kaitlyn Zhou, Kayur Patel, Tatsunori B Hashimoto, Michael S Bernstein"
+    venue: "Conference on Human Factors in Computing Systems (CHI 2021)"
+    paper_pdf: http://www.kayur.org/papers/chi2021.pdf
+    nlp: y
 
   - title: "Approximate Selection with Guarantees using Proxies"
     authors: "Daniel Kang<b>*</b>, Edward Gan<b>*</b>, Peter Bailis, Tatsunori B Hashimoto, Matei Zaharia"
-    venue: "International Conference on Very Large Data Bases (VLDB 2020, To Appear)"
+    venue: "International Conference on Very Large Data Bases (VLDB 2020)"
     paper_pdf: https://arxiv.org/abs/2004.00827
     selected: y
     statsml: y
 
   - title: "Improved Natural Language Generation via Loss Truncation"
     authors: "Daniel Kang, Tatsunori B Hashimoto"
-    venue: "Annual Meeting of the Association of Computational Linguistics (ACL 2020, To Appear)"
+    venue: "Annual Meeting of the Association of Computational Linguistics (ACL 2020)"
     paper_pdf: https://arxiv.org/abs/2004.14589
     nlp: y
     selected: y
 
   - title: "Robustness to Spurious Correlations via Human Annotations"
     authors: "Megha Srivastava, Tatsunori B Hashimoto, Percy Liang"
-    venue: "International Conference on Machine Learning (ICML 2020, To Appear)"
+    venue: "International Conference on Machine Learning (ICML 2020)"
+    paper_pdf: https://arxiv.org/abs/2007.06661
     statsml: y
     selected: y
 
