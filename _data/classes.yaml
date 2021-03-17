@@ -1,0 +1,12 @@
+classes:
+    - name: "CS329D"
+      time: "Spring 2021"
+      title: "Machine Learning Under Distribution Shifts"
+      category: "current"
+      link: "https://thashim.github.io/cs329D-spring2021/"
+
+    - name: "CS221"
+      time: "Winter 2021"
+      title: "Artificial Intelligence: Principles and Techniques"
+      category: "current"
+      link: "https://stanford-cs221.github.io/winter2021/"

@@ -66,8 +66,8 @@
         </div>
         <div class="nine columns main-description">
             <h1>Tatsunori Hashimoto</h1>
-            <p>Researcher, Microsoft Semantic Machines</p>
-            <p>Acting Assistant Professor, Stanford</p>
+            <p>Assistant Professor, Stanford</p>
+            <p></p>
             <p>thashim [AT] stanford.edu</p>
             <p>
               <span onclick="window.open('https://twitter.com/tatsu_hashimoto')" style="cursor: pointer">
@@ -169,7 +169,7 @@
 <h4 id="minutiae-extraction">Minutiae Extraction</h4>
 <p>Performed by using the concept of Crossing Number, CN:</p>
 
-<script type="math/tex; mode=display">CN(p) = \frac{1}{2} \sum_{i = 1 ... 8} |val(p_{i~mod~8}) - val(p_{i-1})|</script>
+\[CN(p) = \frac{1}{2} \sum_{i = 1 ... 8} |val(p_{i~mod~8}) - val(p_{i-1})|\]
 
 <p>All minutiae extracted by a simple image scan of the skeletonized image:</p>
 <ul>
@@ -184,7 +184,7 @@
   <figcaption><b>Intuition behind the CN number (Maltoni et al., 2009)</b></figcaption>
 </figure>
 
-<p>All minutiae stored as (<script type="math/tex">x</script>, <script type="math/tex">y</script>, <script type="math/tex">\theta</script> , <script type="math/tex">CN</script>) quadruples where — <script type="math/tex">x</script>, <script type="math/tex">y</script>: the spatial coordinates; <script type="math/tex">\theta</script>: orientation; <script type="math/tex">CN</script>: the Crossing Number.</p>
+<p>All minutiae stored as (\(x\), \(y\), \(\theta\) , \(CN\)) quadruples where — \(x\), \(y\): the spatial coordinates; \(\theta\): orientation; \(CN\): the Crossing Number.</p>
 
 <figure class="image">
   <img src="/assets/projects/2010_fingerprint-verification/men-extraction.png" alt="Minutiae detected on a skeletonized image" style="width: 100%" />
@@ -198,14 +198,14 @@
 
 <ol>
   <li>Registration: finding the best transformation which when applied to the one of the images will result in maximum overlapping minutiae.</li>
-  <li>Minutiae Pairing: minutiae are paired if their difference in <script type="math/tex">x</script>, <script type="math/tex">y</script>, <script type="math/tex">\theta</script> is within the range of the tolerance box.</li>
+  <li>Minutiae Pairing: minutiae are paired if their difference in \(x\), \(y\), \(\theta\) is within the range of the tolerance box.</li>
   <li>Matching Score:</li>
 </ol>
 
-<script type="math/tex; mode=display">MS(p, q) = \frac{m^2}{(n_p * n_q)}</script>
+\[MS(p, q) = \frac{m^2}{(n_p * n_q)}\]
 
-<p><script type="math/tex">m</script> – paired minutiae,
-<script type="math/tex">n</script> – minutiae within the bounding box.</p>
+<p>\(m\) – paired minutiae,
+\(n\) – minutiae within the bounding box.</p>
 
 
 

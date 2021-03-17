@@ -246,6 +246,17 @@ title: Home
   </div>
 </div>
 
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+  {% assign current_classes = site.data.classes.classes | where: "category", "current" %}
+  {% for class in current_classes %}
+  <div class="class">
+    <p class="title"><b>{{ class.name }}</b> ({{ class.time }}): <a href={{class.link}} target="_blank">{{ class.title }}</a></p>
+  </div>
+  {% endfor %}
+</div>
+
+
 <div class="docs-section" id="talks">
   <h4>Talks and slides</h4>
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
