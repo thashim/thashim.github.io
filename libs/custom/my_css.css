@@ -14,7 +14,8 @@ h4 {
   font-size: 22px;
   margin-top: 5px; }
 .paper {
-  margin-bottom: 20px }
+    margin-bottom: 20px;
+    line-height: 1.2;}
 .paper .title {
   /*text-transform: uppercase; */}
 .paper p {

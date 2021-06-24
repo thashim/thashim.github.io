@@ -1,4 +1,31 @@
 papers:
+  - title: "Model Performance Scaling with Multiple Data Sources"
+    authors: "Tatsunori B Hashimoto"
+    venue: "International Conference on Machine Learning (ICML 2021, To appear)"
+    statsml: y
+    selected: y
+    
+  - title: "Measuring Conversational Uptake: A Case Study on Student-Teacher Interactions"
+    authors: "Dorottya Demszky, Jing Liu, Zid Mancenido, Julie Cohen, Heather Hill, Dan Jurafsky, Tatsunori B Hashimoto"
+    venue: "Annual Meeting of the Association of Computational Linguistics (ACL 2020, To appear)"
+    paper_pdf: https://arxiv.org/pdf/2106.03873.pdf
+    nlp: y
+
+  - title: "DReCa: A general task augmentation strategy for few-shot natural language inference"
+    authors: "Shikhar Murty, Tatsunori B Hashimoto, Christopher D Manning"
+    venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)"
+    paper_pdf: https://www.aclweb.org/anthology/2021.naacl-main.88.pdf
+    selected: y
+    nlp: y
+  
+  - title: "On the Inductive Bias of Masked Language Modeling: From Statistical to Syntactic Dependencies"
+    authors: "Tianyi Zhang, Tatsunori B Hashimoto"
+    venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)"
+    paper_pdf: https://arxiv.org/pdf/2104.05694.pdf
+    selected: y
+    nlp: y
+    
+
   - title: "Modeling the Second Player in Distributionally Robust Optimization"
     authors: "Paul Michel, Tatsunori B. Hashimoto, Graham Neubig"
     venue: "International Conference on Learning Representations (ICLR 2021)"

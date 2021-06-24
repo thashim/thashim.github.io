@@ -1,28 +1,48 @@
 students:
-    - name: "Hugh Zhang"
-      time: "2019-"
-      place: "Undergrad (with Percy Liang)"
+    - name: "Esin Durmus"
+      time: "2021-"
+      place: "SAIL Postdoc (w/ Dan Jurafsky)"
       category: "current"
+      link: https://www.cs.cornell.edu/~esindurmus/
 
-    - name: "Megha Srivastava"
-      time: "2018-"
-      place: "Undergrad (with Percy Liang)"
+    - name: "Niladri Chatterji"
+      time: "2021-"
+      place: "SAIL Postdoc (w/ Percy Liang)"
       category: "current"
-
-    - name: "Yonatan Oren"
-      time: "2017-"
-      place: "Undergrad (with Percy Liang and Kelvin Guu)"
-      category: "current"
-
-    - name: "Logan Engstrom"
-      time: "2015-2016"
-      place: "High school / MIT Undergrad (with David Gifford)"
-      current: "Now Ph.D. student at MIT"
-      category: "former"
+      link: https://niladri-chatterji.github.io/
 
     - name: "Daniel Kang"
-      time: "2015-2016"
-      place: "MIT Undergrad (with David Gifford)"
-      current: "Now Ph.D. student at Stanford"
-      category: "former"
+      time: "2021-"
+      place: "Graduate Student (w/ Matei Zaharia and Peter Bailis)"
+      category: "current"
+      link: https://ddkang.github.io/
 
+    - name: "Ishaan Gulrajani"
+      time: "2021-"
+      place: "Graduate Student"
+      category: "current"
+      link: https://ishaan.io/
+
+    - name: "Lisa Li"
+      time: "2021-"
+      place: "Graduate Student (w/ Percy Liang)"
+      category: "current"
+      link: https://xiangli1999.github.io/
+
+    - name: "Xuechen Li"
+      time: "2021-"
+      place: "Graduate Student"
+      category: "current"
+      link: https://www.lxuechen.com/
+
+    - name: "Rohan Taori"
+      time: "2021-"
+      place: "Graduate Student"
+      category: "current"
+      link: https://www.rohantaori.com/
+
+    - name: "Tianyi Zhang"
+      time: "2021-"
+      place: "Graduate Student"
+      category: "current"
+      link: https://tiiiger.github.io/

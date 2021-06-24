@@ -26,6 +26,28 @@ title: Home
 
 </div>
 
+
+<div class="docs-section" id="people">
+  <h4>Advisees</h4>
+
+
+      {% assign current_people = site.data.students.students | where: "category", "current" %}
+      {% for person in current_people %}
+        <div class="paper">
+          <p style="line-height: 0.5">
+            {% if person.link %}
+            <a href="{{ person.link | prepend: site.baseurl }}" target="_blank"><b>{{ person.name }}</b></a>
+            {% else %}
+            <b>{{ person.name }}</b>
+              
+              {% endif %}
+               ({{ person.time }}) <i>{{ person.place }}</i>
+          </p>
+        </div>
+      {% endfor %}
+</div>
+
+
 <!-- ========== PROJECTS ========== -->
   <h4>Recent Research Areas</h4>
 
@@ -79,7 +101,52 @@ title: Home
 
 
 
+
 <!-- ========== PUBLICATIONS ========== -->
+
+
+<!-- old people 
+<div class="docs-section" id="people">
+  <h4>Advisees</h4>
+
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#current">Current</div></li>
+    <li><div class="button" data-ref="#former">Former</div></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="current">
+      {% assign current_people = site.data.students.students | where: "category", "current" %}
+      {% for person in current_people %}
+        <div class="paper">
+          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p><i>{{ person.place }}</i></p>
+          {% if person.current %}
+          <p> {{ person.current }} </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="former">
+      {% assign former_people = site.data.students.students | where: "category", "former" %}
+      {% for person in former_people %}
+        <div class="paper">
+          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p><i>{{ person.place }}</i></p>
+          {% if person.current %}
+          <p> {{ person.current }} </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+  </div>
+</div>
+-->
+
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
@@ -246,6 +313,8 @@ title: Home
   </div>
 </div>
 
+
+
 <div class="docs-section" id="teaching">
   <h4>Teaching</h4>
   {% assign current_classes = site.data.classes.classes | where: "category", "current" %}
@@ -266,49 +335,6 @@ title: Home
   </div>
   {% endfor %}
 </div>
-
-
-<!---
-<div class="docs-section" id="people">
-  <h4>Advisees</h4>
-
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#current">Current</div></li>
-    <li><div class="button" data-ref="#former">Former</div></li>
-  </ul>
-
-  <div class="tab-content">
-
-    <div class="tab-pane active" id="current">
-      {% assign current_people = site.data.students.students | where: "category", "current" %}
-      {% for person in current_people %}
-        <div class="paper">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
-          <p><i>{{ person.place }}</i></p>
-          {% if person.current %}
-          <p> {{ person.current }} </p>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="former">
-      {% assign former_people = site.data.students.students | where: "category", "former" %}
-      {% for person in former_people %}
-        <div class="paper">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
-          <p><i>{{ person.place }}</i></p>
-          {% if person.current %}
-          <p> {{ person.current }} </p>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-    
-  </div>
-</div>
---->
 
 
 
