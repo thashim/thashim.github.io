@@ -1,4 +1,17 @@
 papers:
+  - title: "Large Language Models Can Be Strong Differentially Private Learners"
+    authors: "Xuechen Li, Florian Tramer, Percy Liang, Tatsunori B Hashimoto"
+    venue: "Preprint"
+    paper_pdf: https://arxiv.org/pdf/2110.05679.pdf
+    statsml: y
+    nlp: y
+    selected: y
+
+  - title: "Accelerating approximate aggregation queries with expensive predicates"
+    authors: "Daniel Kang, John Guibas, Peter Bailis, Tatsunori B Hashimoto, Yi Sun, Matei Zaharia"
+    venue: "Preprint"
+    paper_pdf: https://arxiv.org/pdf/2108.06313.pdf
+
   - title: "Model Performance Scaling with Multiple Data Sources"
     authors: "Tatsunori B Hashimoto"
     venue: "International Conference on Machine Learning (ICML 2021, To appear)"
