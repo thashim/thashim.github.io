@@ -11,6 +11,12 @@ students:
       category: "current"
       link: https://niladri-chatterji.github.io/
 
+    - name: "Shibani Santurkar"
+      time: "2021-"
+      place: "Postdoc (w/ Percy Liang and Tengyu Ma)"
+      category: "current"
+      link: https://shibanisanturkar.com/
+
     - name: "Daniel Kang"
       time: "2021-"
       place: "Graduate Student (w/ Matei Zaharia and Peter Bailis)"
