@@ -1,12 +1,12 @@
 classes:
-    - name: "CS329D"
-      time: "Fall 2021"
-      title: "Machine Learning Under Distribution Shifts"
+    - name: "CS324"
+      time: "Winter 2022"
+      title: "Large Language Models"
       category: "current"
-      link: "https://thashim.github.io/cs329D/"
+      link: "https://stanford-cs324.github.io/winter2022/"
 
     - name: "CS329D"
-      time: "Spring 2021"
+      time: "Fall 2021, Spring 2021"
       title: "Machine Learning Under Distribution Shifts"
       category: "current"
       link: "https://thashim.github.io/cs329D/"
