@@ -1,8 +1,42 @@
 papers:
+  - title: "Diffusion-LM Improves Controllable Text Generation"
+    authors: "Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2205.14217.pdf
+    nlp: y
+    selected: y
+  
+  - title: "Undersampling is a Minimax Optimal Robustness Intervention in Nonparametric Classification"
+    authors: "Niladri Chatterji, Saminul Haque, Tatsunori B Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2205.13094.pdf
+    statsml: y
+    selected: y
+    
+  - title: "TempLM: Distilling Language Models into Template-Based Generators"
+    authors: "Tianyi Zhang, Mina Lee, Lisa Li, Ende Shen, Tatsunori B Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2205.11055.pdf
+    nlp: y
+    selected: y
+    
+  - title: "Jury learning: Integrating dissenting voices into machine learning models"
+    authors: "Mitchell Gordon, Michelle Lam, Joon Park, Kayur Patel, Jeff Hancock, Tatsunori B Hashimoto, Michael Bernstein"
+    venue: "Conference on Human Factors in Computing Systems (CHI 2022, Best paper)"
+    paper_pdf: https://dl.acm.org/doi/pdf/10.1145/3491102.3502004
+    nlp: y
+    selected: y
 
+  - title: "Spurious Correlations in Reference-Free Evaluation of Text Generation"
+    authors: "Esin Durmus, Faisal Ladhak, Tatsunori B Hashimoto"
+    venue: "Annual Meeting of the Association of Computational Linguistics (ACL 2022)"
+    paper_pdf: https://arxiv.org/pdf/2204.09890.pdf
+    nlp: y
+    selected: y
+    
   - title: "Large Language Models Can Be Strong Differentially Private Learners"
     authors: "Xuechen Li, Florian Tramer, Percy Liang, Tatsunori B Hashimoto"
-    venue: "International Conference on Learning Representations (ICLR 2022 Oral, To appear)"
+    venue: "International Conference on Learning Representations (ICLR 2022 Oral)"
     paper_pdf: https://arxiv.org/pdf/2110.05679.pdf
     statsml: y
     nlp: y
@@ -10,28 +44,28 @@ papers:
 
   - title: "Language Modeling via Stochastic Processes"
     authors: "Rose E Wang, Esin Durmus, Noah Goodman, Tatsunori B Hashimoto"
-    venue: "International Conference on Learning Representations (ICLR 2022 Oral, To appear)"
+    venue: "International Conference on Learning Representations (ICLR 2022 Oral)"
     paper_pdf: https://openreview.net/forum?id=pMQwKL1yctf
     nlp: y
     selected: y
 
   - title: "Is Importance Weighting Incompatible with Interpolating Classifiers?"
     authors: "Ke A Wang, Niladri S Chatterji, Saminul Haque, Tatsunori B Hashimoto"
-    venue: "International Conference on Learning Representations (ICLR 2022, To appear)"
+    venue: "International Conference on Learning Representations (ICLR 2022)"
     paper_pdf: https://arxiv.org/pdf/2112.12986.pdf
     statsml: y
     selected: y
 
   - title: "Distributionally Robust Models with Parametric Likelihood Ratios"
     authors: "Paul Michel, Tatsunori B Hashimoto, Graham Neubig"
-    venue: "International Conference on Learning Representations (ICLR 2022, To appear)"
+    venue: "International Conference on Learning Representations (ICLR 2022)"
     paper_pdf: https://openreview.net/pdf?id=a34GrNaYEcS
     statsml: y
     selected: y
 
   - title: "Extending the WILDS Benchmark for Unsupervised Adaptation"
     authors: "Shiori Sagawa, Pang Wei Koh [...] Tatsunori Hashimoto, Sergey Levine, Chelsea Finn, Percy Liang"
-    venue: "International Conference on Learning Representations (ICLR 2022 Oral, To appear)"
+    venue: "International Conference on Learning Representations (ICLR 2022 Oral)"
     paper_pdf: https://openreview.net/forum?id=z7p2V6KROVO
     statsml: y
     selected: y
@@ -44,7 +78,7 @@ papers:
 
   - title: "Accelerating approximate aggregation queries with expensive predicates"
     authors: "Daniel Kang, John Guibas, Peter Bailis, Tatsunori B Hashimoto, Yi Sun, Matei Zaharia"
-    venue: "ACM Conference on Management of Data (SIGMOD 2022, To appear)"
+    venue: "ACM Conference on Management of Data (SIGMOD 2022)"
     paper_pdf: https://arxiv.org/pdf/2108.06313.pdf
 
   - title: "Model Performance Scaling with Multiple Data Sources"
