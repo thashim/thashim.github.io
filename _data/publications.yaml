@@ -1,9 +1,49 @@
 papers:
+
+  - title: "Is a caption worth a thousand images? a controlled study for representation learning"
+    authors: "Shibani Santurkar, Yann Dubois, Rohan Taori, Percy Liang, Tatsunori Hashimoto"
+    venue: "International Conference on Learning Representations (ICLR 2023, to appear)"
+    paper_pdf: https://arxiv.org/pdf/2207.07635.pdf
+    statsml: y
+    selected: y
+
+  - title: "A Closer Look at the Calibration of Differentially Private Learners"
+    authors: "Hanlin Zhang, Xuechen Li, Prithviraj Sen, Salim Roukos, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2210.08248.pdf
+    statsml: y
+
+  - title: "Improving self-supervised learning by characterizing idealized representations"
+    authors: "Yann Dubois, Tatsunori Hashimoto, Stefano Ermon, Percy Liang"
+    venue: "Advances in Neural Information Processing Systems 31 (NeurIPS 2022)"
+    paper_pdf: https://arxiv.org/pdf/2209.06235.pdf
+    statsml: y
+
+  - title: "When Does Differentially Private Learning Not Suffer in High Dimensions?"
+    authors: "Xuechen Li, Daogao Liu, Tatsunori Hashimoto, Huseyin A. Inan, Janardhan Kulkarni, Yin Tat Lee, Abhradeep Guha Thakurta"
+    venue: "Advances in Neural Information Processing Systems 31 (NeurIPS 2022)"
+    paper_pdf: https://arxiv.org/pdf/2207.00160.pdf
+    statsml: y
+
   - title: "Diffusion-LM Improves Controllable Text Generation"
     authors: "Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "Advances in Neural Information Processing Systems 31 (NeurIPS 2022)"
     paper_pdf: https://arxiv.org/pdf/2205.14217.pdf
     nlp: y
+    selected: y
+
+  - title: "Data Feedback Loops: Model-driven Amplification of Dataset Biases"
+    authors: "Rohan Taori, Tatsunori B Hashimoto"
+    venue: ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2209.03942
+    statsml: y
+    selected: y
+
+  - title: "Identifiability Conditions for Domain Adaptation"
+    authors: "Ishaan Gulrajani, Tatsunori B Hashimoto"
+    venue: "International Conference on Machine Learning (ICML 2022)"
+    paper_pdf: https://proceedings.mlr.press/v162/gulrajani22a/gulrajani22a.pdf
+    statsml: y 
     selected: y
   
   - title: "Undersampling is a Minimax Optimal Robustness Intervention in Nonparametric Classification"
@@ -19,6 +59,13 @@ papers:
     paper_pdf: https://arxiv.org/pdf/2205.11055.pdf
     nlp: y
     selected: y
+
+  - title: "Emergent abilities of large language models"
+    authors: "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus"
+    venue: "Transactions on Machine Learning Research (2022)"
+    paper_pdf: https://openreview.net/pdf?id=yzkSU5zdwD
+    nlp: y
+    statsml: y
     
   - title: "Jury learning: Integrating dissenting voices into machine learning models"
     authors: "Mitchell Gordon, Michelle Lam, Joon Park, Kayur Patel, Jeff Hancock, Tatsunori B Hashimoto, Michael Bernstein"
@@ -98,7 +145,6 @@ papers:
     authors: "Shikhar Murty, Tatsunori B Hashimoto, Christopher D Manning"
     venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)"
     paper_pdf: https://www.aclweb.org/anthology/2021.naacl-main.88.pdf
-    selected: y
     nlp: y
   
   - title: "On the Inductive Bias of Masked Language Modeling: From Statistical to Syntactic Dependencies"
@@ -114,7 +160,6 @@ papers:
     venue: "International Conference on Learning Representations (ICLR 2021)"
     paper_pdf: https://openreview.net/pdf?id=ZDnzZrTqU9N
     statsml: y
-    selected: y
 
   - title: "Task-agnostic Indexes for Deep Learning-based Queries over Unstructured Data"
     authors: "Daniel Kang, John Guibas, Peter Bailis, Tatsunori Hashimoto, Matei Zaharia"
@@ -166,14 +211,13 @@ papers:
     authors: "Yonatan Oren<b>*</b>, Shiori Sagawa <b>*</b>, Tatsunori B Hashimoto <b>*</b>, Percy Liang"
     venue: "Empirical Methods in Natural Language Processing (EMNLP 2019)"
     paper_pdf: "https://arxiv.org/abs/1909.02060"
-    selected: y
     nlp: y
 
 
-  - title: "Distributionally Robust Losses Against Mixture Covariate Shifts"
+  - title: "Distributionally Robust Losses For Latent Covariate Mixtures"
     authors: "John C Duchi, Tatsunori B Hashimoto, Hongseok Namkoong"
-    venue: "Preprint"
-    paper_pdf: "/assets/publications/condrisk.pdf"
+    venue: "Operations Research (2022)"
+    paper_pdf: "https://arxiv.org/pdf/2007.13982.pdf"
     selected: y
     statsml: y
     nlp: n

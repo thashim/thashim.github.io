@@ -1,5 +1,12 @@
 classes:
     - name: "CS324"
+      time: "Winter 2023"
+      title: "Advances in Foundation Models"
+      category: "current"
+      link: "https://stanford-cs324.github.io/winter2023/"
+
+
+    - name: "CS324"
       time: "Winter 2022"
       title: "Large Language Models"
       category: "current"

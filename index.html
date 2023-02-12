@@ -10,7 +10,7 @@ title: Home
 </p>
   <p>
     
-    My research uses tools from statistics to make machine learning systems more robust and reliable &#8212; especially in challenging tasks involving natural language. The goal of my research is to use robustness and worst-case performance as a lens to understand and make progress on several fundamental challenges in machine learning and natural language processing. A few topics of recent interest are,
+    My research uses tools from statistics to make machine learning systems more robust and trustworthy &#8212; especially in complex systems such as large language models. The goal of my research is to use robustness and worst-case performance as a lens to understand and make progress on several fundamental challenges in machine learning and natural language processing. A few topics of recent interest are,
     
     <dl style="PADDING-LEFT: 40px">
     <dt><b>Long-tail behavior</b></dt> <dd>How can we ensure that a machine learning system won't fail catastrophically in the wild under changing conditions?</dd>
@@ -48,20 +48,11 @@ title: Home
 </div>
 
 
-<!-- ========== PROJECTS ========== -->
+
+<!--
   <h4>Recent Research Areas</h4>
 
 <div class="docs-section" id="projects">
-<!--
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#proj-cur">Current Projects</div></li>
-    <li><div class="button" data-ref="#proj-past">Past</div></li>    
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="proj-cur">
---!>
-
 
       {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
       {% for project in selected_projects %}
@@ -93,13 +84,10 @@ title: Home
           </div>
         {% endif %}
       {% endfor %}
-<!---      </div>
-   </div>
----!>
 
 </div>
 
-
+--!>
 
 
 <!-- ========== PUBLICATIONS ========== -->
@@ -325,7 +313,7 @@ title: Home
   {% endfor %}
 </div>
 
-
+<!--
 <div class="docs-section" id="talks">
   <h4>Talks and slides</h4>
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
@@ -334,6 +322,27 @@ title: Home
     <p class="title"><b>{{ talk.name }}</b> ({{ talk.time }}): <a href={{talk.link}} target="_blank">{{ talk.title }}</a></p>
   </div>
   {% endfor %}
+</div>
+--!>
+
+<div class="docs-section" id="former">
+  <h4>Former Advisees</h4>
+
+
+      {% assign former_people = site.data.students.students | where: "category", "former" %}
+      {% for person in former_people %}
+        <div class="paper">
+          <p style="line-height: 0.5">
+            {% if person.link %}
+            <a href="{{ person.link | prepend: site.baseurl }}" target="_blank"><b>{{ person.name }}</b></a>
+            {% else %}
+            <b>{{ person.name }}</b>
+              
+              {% endif %}
+               ({{ person.time }}) <i>{{ person.place }}</i>
+          </p>
+        </div>
+      {% endfor %}
 </div>
 
 

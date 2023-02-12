@@ -1,8 +1,8 @@
 students:
     - name: "Esin Durmus"
-      time: "2021-"
-      place: "SAIL Postdoc (w/ Dan Jurafsky)"
-      category: "current"
+      time: "2021-2023"
+      place: "SAIL Postdoc (w/ Dan Jurafsky), now at Anthropic."
+      category: "former"
       link: https://www.cs.cornell.edu/~esindurmus/
 
     - name: "Niladri Chatterji"
@@ -12,15 +12,15 @@ students:
       link: https://niladri-chatterji.github.io/
 
     - name: "Shibani Santurkar"
-      time: "2021-"
-      place: "Postdoc (w/ Percy Liang and Tengyu Ma)"
-      category: "current"
+      time: "2021-2023"
+      place: "Postdoc (w/ Percy Liang and Tengyu Ma), now at OpenAI."
+      category: "former"
       link: https://shibanisanturkar.com/
 
     - name: "Daniel Kang"
-      time: "2021-"
-      place: "Graduate Student (w/ Matei Zaharia and Peter Bailis)"
-      category: "current"
+      time: "2021-2022"
+      place: "Graduate Student (w/ Matei Zaharia and Peter Bailis), now assistant prof at UIUC."
+      category: "former"
       link: https://ddkang.github.io/
 
     - name: "Ishaan Gulrajani"
@@ -37,7 +37,7 @@ students:
 
     - name: "Xuechen Li"
       time: "2021-"
-      place: "Graduate Student"
+      place: "Graduate Student (w/ Carlos Guestrin)"
       category: "current"
       link: https://www.lxuechen.com/
 
@@ -52,3 +52,9 @@ students:
       place: "Graduate Student"
       category: "current"
       link: https://tiiiger.github.io/
+
+    - name: "Yann Dubois"
+      time: "2022-"
+      place: "Graduate Student"
+      category: "current"
+      link: https://yanndubs.github.io/
