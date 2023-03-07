@@ -1,5 +1,79 @@
 papers:
 
+  - title: "Navigating the Grey Area: Expressions of Overconfidence and Uncertainty in Language Models"
+    authors: "Kaitlyn Zhou, Dan Jurafsky, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2302.13439.pdf
+    nlp: y
+    selected: y
+
+  - title: "Out-of-Domain Robustness via Targeted Augmentations"
+    authors: "Irena Gao, Shiori Sagawa, Pang Wei Koh, Tatsunori Hashimoto, Percy Liang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2302.11861.pdf
+    statsml: y
+
+  - title: "Exploiting Programmatic Behavior of LLMs: Dual-Use Through Standard Security Attacks"
+    authors: "Daniel Kang, Xuechen Li, Ion Stoica, Carlos Guestrin, Matei Zaharia, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2302.05733.pdf
+    statsml: y
+    selected: y
+
+  - title: "Evaluating Self-Supervised Learning via Risk Decomposition"
+    authors: "Yann Dubois, Tatsunori Hashimoto, Percy Liang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2302.03068.pdf
+    statsml: y
+    selected: y
+
+  - title: "Benchmarking Large Language Models for News Summarization"
+    authors: "Tianyi Zhang, Faisal Ladhak, Esin Durmus, Percy Liang, Kathleen McKeown, Tatsunori B Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2301.13848.pdf
+    nlp: y
+    selected: y
+
+  - title: "Tracing and Removing Data Errors in Natural Language Generation Datasets"
+    authors: "Faisal Ladhak, Esin Durmus, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2212.10722.pdf
+    nlp: y
+    selected: y
+
+  - title: "Privacy-Preserving Domain Adaptation of Semantic Parsers"
+    authors: "Fatemehsadat Mireshghallah, Richard Shin, Yu Su, Tatsunori Hashimoto, Jason Eisner"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2212.10520.pdf
+    nlp: y
+
+  - title: "Coder Reviewer Reranking for Code Generation"
+    authors: "Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2211.16490.pdf
+
+  - title: "ZK-IMG: Attested Images via Zero-Knowledge Proofs to Fight Disinformation"
+    authors: "Daniel Kang, Tatsunori Hashimoto, Ion Stoica, Yi Sun"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2211.04775.pdf
+
+  - title: "Easily accessible text-to-image generation amplifies demographic stereotypes at large scale"
+    authors: "Federico Bianchi, Pratyusha Kalluri, Esin Durmus, Faisal Ladhak, Myra Cheng, Debora Nozza, Tatsunori Hashimoto, Dan Jurafsky, James Zou, Aylin Caliskan"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2211.03759.pdf
+
+  - title: "Contrastive decoding: Open-ended text generation as optimization"
+    authors: "Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, Mike Lewis"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2210.15097.pdf
+    nlp: y
+
+  - title: "Scaling up Trustless DNN Inference with Zero-Knowledge Proofs"
+    authors: "Daniel Kang, Tatsunori Hashimoto, Ion Stoica, Yi Sun"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2210.08674.pdf
+    statsml: y
+
   - title: "Is a caption worth a thousand images? a controlled study for representation learning"
     authors: "Shibani Santurkar, Yann Dubois, Rohan Taori, Percy Liang, Tatsunori Hashimoto"
     venue: "International Conference on Learning Representations (ICLR 2023, to appear)"
@@ -94,7 +168,6 @@ papers:
     venue: "International Conference on Learning Representations (ICLR 2022 Oral)"
     paper_pdf: https://openreview.net/forum?id=pMQwKL1yctf
     nlp: y
-    selected: y
 
   - title: "Is Importance Weighting Incompatible with Interpolating Classifiers?"
     authors: "Ke A Wang, Niladri S Chatterji, Saminul Haque, Tatsunori B Hashimoto"
@@ -177,7 +250,6 @@ papers:
     authors: "Daniel Kang<b>*</b>, Edward Gan<b>*</b>, Peter Bailis, Tatsunori B Hashimoto, Matei Zaharia"
     venue: "International Conference on Very Large Data Bases (VLDB 2020)"
     paper_pdf: https://arxiv.org/abs/2004.00827
-    selected: y
     statsml: y
 
   - title: "Improved Natural Language Generation via Loss Truncation"
