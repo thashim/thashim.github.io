@@ -1,5 +1,19 @@
 papers:
 
+  - title: "Whose Opinions Do Language Models Reflect?"
+    authors: "Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2303.17548.pdf
+    nlp: y
+    selected: y
+
+  - title: "Foundation Models and Fair Use"
+    authors: "Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A Lemley, Percy Liang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2303.15715.pdf
+    nlp: y
+    selected: y 
+
   - title: "Navigating the Grey Area: Expressions of Overconfidence and Uncertainty in Language Models"
     authors: "Kaitlyn Zhou, Dan Jurafsky, Tatsunori Hashimoto"
     venue: "ArXiv preprint"
