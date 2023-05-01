@@ -2,9 +2,16 @@ papers:
 
   - title: "Whose Opinions Do Language Models Reflect?"
     authors: "Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, Tatsunori Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "International Conference on Machine Learning (ICML 2023, oral)"
     paper_pdf: https://arxiv.org/pdf/2303.17548.pdf
     nlp: y
+    selected: y
+
+  - title: "Data Feedback Loops: Model-driven Amplification of Dataset Biases"
+    authors: "Rohan Taori, Tatsunori B Hashimoto"
+    venue: International Conference on Machine Learning (ICML 2023, oral)"
+    paper_pdf: https://arxiv.org/pdf/2209.03942
+    statsml: y
     selected: y
 
   - title: "Foundation Models and Fair Use"
@@ -23,7 +30,7 @@ papers:
 
   - title: "Out-of-Domain Robustness via Targeted Augmentations"
     authors: "Irena Gao, Shiori Sagawa, Pang Wei Koh, Tatsunori Hashimoto, Percy Liang"
-    venue: "ArXiv preprint"
+    venue: "International Conference on Machine Learning (ICML 2023)"
     paper_pdf: https://arxiv.org/pdf/2302.11861.pdf
     statsml: y
 
@@ -36,7 +43,7 @@ papers:
 
   - title: "Evaluating Self-Supervised Learning via Risk Decomposition"
     authors: "Yann Dubois, Tatsunori Hashimoto, Percy Liang"
-    venue: "ArXiv preprint"
+    venue: "International Conference on Machine Learning (ICML 2023, oral)"
     paper_pdf: https://arxiv.org/pdf/2302.03068.pdf
     statsml: y
     selected: y
@@ -63,7 +70,7 @@ papers:
 
   - title: "Coder Reviewer Reranking for Code Generation"
     authors: "Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang"
-    venue: "ArXiv preprint"
+    venue: "International Conference on Machine Learning (ICML 2023)"
     paper_pdf: https://arxiv.org/pdf/2211.16490.pdf
 
   - title: "ZK-IMG: Attested Images via Zero-Knowledge Proofs to Fight Disinformation"
@@ -73,7 +80,7 @@ papers:
 
   - title: "Easily accessible text-to-image generation amplifies demographic stereotypes at large scale"
     authors: "Federico Bianchi, Pratyusha Kalluri, Esin Durmus, Faisal Ladhak, Myra Cheng, Debora Nozza, Tatsunori Hashimoto, Dan Jurafsky, James Zou, Aylin Caliskan"
-    venue: "ArXiv preprint"
+    venue: "FAccT 2023"
     paper_pdf: https://arxiv.org/pdf/2211.03759.pdf
 
   - title: "Contrastive decoding: Open-ended text generation as optimization"
@@ -90,7 +97,7 @@ papers:
 
   - title: "Is a caption worth a thousand images? a controlled study for representation learning"
     authors: "Shibani Santurkar, Yann Dubois, Rohan Taori, Percy Liang, Tatsunori Hashimoto"
-    venue: "International Conference on Learning Representations (ICLR 2023, to appear)"
+    venue: "International Conference on Learning Representations (ICLR 2023)"
     paper_pdf: https://arxiv.org/pdf/2207.07635.pdf
     statsml: y
     selected: y
@@ -120,12 +127,6 @@ papers:
     nlp: y
     selected: y
 
-  - title: "Data Feedback Loops: Model-driven Amplification of Dataset Biases"
-    authors: "Rohan Taori, Tatsunori B Hashimoto"
-    venue: ArXiv preprint"
-    paper_pdf: https://arxiv.org/pdf/2209.03942
-    statsml: y
-    selected: y
 
   - title: "Identifiability Conditions for Domain Adaptation"
     authors: "Ishaan Gulrajani, Tatsunori B Hashimoto"
