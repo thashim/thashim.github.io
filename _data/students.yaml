@@ -55,6 +55,12 @@ students:
 
     - name: "Yann Dubois"
       time: "2022-"
-      place: "Graduate Student"
+      place: "Graduate Student (w/ Percy Liang)"
       category: "current"
       link: https://yanndubs.github.io/
+
+    - name: "Neil Band"
+      time: "2023-"
+      place: "Graduate Student (w/ Tengyu Ma)"
+      category: "current"
+      link: https://nband.github.io/

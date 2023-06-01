@@ -1,5 +1,26 @@
 papers:
 
+  - title: "Likelihood-Based Diffusion Language Models"
+    authors: " Ishaan Gulrajani, Tatsunori B. Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2305.18619v1.pdf
+    nlp: y
+    statsml: y
+    selected: y
+
+  - title: "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback"
+    authors: "Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy Liang, Tatsunori B Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2305.14387.pdf
+    nlp: y
+    selected: y
+
+  - title: "When Do Pre-Training Biases Propagate to Downstream Tasks? A Case Study in Text Summarization"
+    authors: "Faisal Ladhak, Esin Durmus, Mirac Suzgun, Tianyi Zhang, Dan Jurafsky, Kathleen Mckeown, Tatsunori B Hashimoto"
+    venue: "Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023)"
+    paper_pdf: https://aclanthology.org/2023.eacl-main.234.pdf
+    nlp: y
+
   - title: "Whose Opinions Do Language Models Reflect?"
     authors: "Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, Tatsunori Hashimoto"
     venue: "International Conference on Machine Learning (ICML 2023, oral)"
