@@ -17,6 +17,12 @@ students:
       category: "former"
       link: https://shibanisanturkar.com/
 
+    - name: "Yu Sun"
+      time: "2023-"
+      place: "Postdoc (w/ Sanmi Koyejo and Carlos Guestrin)"
+      category: "current"
+      link: https://yueatsprograms.github.io/
+
     - name: "Daniel Kang"
       time: "2021-2022"
       place: "Graduate Student (w/ Matei Zaharia and Peter Bailis), now assistant prof at UIUC."
@@ -24,9 +30,9 @@ students:
       link: https://ddkang.github.io/
 
     - name: "Ishaan Gulrajani"
-      time: "2021-"
-      place: "Graduate Student"
-      category: "current"
+      time: "2021-2022"
+      place: "Graduate Student (on leave), at OpenAI"
+      category: "former"
       link: https://ishaan.io/
 
     - name: "Lisa Li"
@@ -64,3 +70,9 @@ students:
       place: "Graduate Student (w/ Tengyu Ma)"
       category: "current"
       link: https://nband.github.io/
+
+    - name: "Nicole Meister"
+      time: "2023-"
+      place: "Graduate Student"
+      category: "current"
+      link: https://nicolemeister.github.io/
