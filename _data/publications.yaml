@@ -1,7 +1,20 @@
 papers:
 
+  - title: "Robust Distortion-free Watermarks for Language Models"
+    authors: "Rohith Kuditipudi, John Thickstun, Tatsunori Hashimoto, Percy Liang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2307.15593.pdf
+    statsml: y
+    selected: y
+
+  - title: "One Step of Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention"
+    authors: "Arvind Mahankali, Tatsunori B. Hashimoto, Tengyu Ma"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2307.03576.pdf
+    statsml: y
+
   - title: "Likelihood-Based Diffusion Language Models"
-    authors: " Ishaan Gulrajani, Tatsunori B. Hashimoto"
+    authors: "Ishaan Gulrajani, Tatsunori B. Hashimoto"
     venue: "ArXiv preprint"
     paper_pdf: https://arxiv.org/pdf/2305.18619v1.pdf
     nlp: y
