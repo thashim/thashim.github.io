@@ -1,4 +1,16 @@
 classes:
+    - name: "CS336"
+      time: "Spring 2024"
+      title: "Language Modeling from Scratch"
+      category: "current"
+      link: "https://stanford-cs336.github.io/spring2024/"
+
+    - name: "CS224n"
+      time: "Winter 2024"
+      title: "Natural Language Processing with Deep Learning"
+      category: "current"
+      link: "https://web.stanford.edu/class/cs224n/"
+
     - name: "CS324"
       time: "Winter 2023"
       title: "Advances in Foundation Models"

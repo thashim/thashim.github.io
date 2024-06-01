@@ -1,21 +1,108 @@
 papers:
+  - title: "Observational Scaling Laws and the Predictability of Language Model Performance"
+    authors: "Yangjun Ruan, Chris J Maddison, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2405.10938
+    statsml: y
+    nlp: y
+    selected: y
+
+  - title: "Length-controlled AlpacaEval: A simple way to debias automatic evaluators"
+    authors: "Yann Dubois, Balázs Galambosi, Percy Liang, Tatsunori B Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/abs/2404.04475
+    nlp: y
+    selected: y
+
+  - title: "Trustless Audits without Revealing Data or Models"
+    authors: "Suppakit Waiwitlikhit, Ion Stoica, Yi Sun, Tatsunori Hashimoto, Daniel Kang"
+    venue: "International Conference on Machine Learning (ICML 2024)"
+    paper_pdf: https://arxiv.org/pdf/2404.04500
+
+
+  - title: "Linguistic Calibration of Language Models"
+    authors: "Neil Band, Xuechen Li, Tengyu Ma, Tatsunori Hashimoto"
+    venue: "International Conference on Machine Learning (ICML 2024)"
+    paper_pdf: https://arxiv.org/pdf/2404.00474
+    statsml: y
+    selected: y
+
+  - title: "A Survey on Data Selection for Language Models"
+    authors: "Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Haewon Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, William Yang Wang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2402.16827
+    nlp: y
+
+  - title: "Language Models with Conformal Factuality Guarantees"
+    authors: "Christopher Mohri, Tatsunori Hashimoto"
+    venue: "International Conference on Machine Learning (ICML 2024)"
+    paper_pdf: https://arxiv.org/pdf/2402.10978
+    statsml: y
+    nlp: y
+    selected: y
+
+  - title: "Stochastic Amortization: A Unified Approach to Accelerate Feature and Data Attribution"
+    authors: "Ian Covert, Chanwoo Kim, Su-In Lee, James Zou, Tatsunori Hashimoto"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2401.15866
+    statsml: y
+
+  - title: "On the learnability of watermarks for language models"
+    venue: "International Conference on Learning Representations (ICLR 2024)"
+    authors: "Chenchen Gu, Xiang Lisa Li, Percy Liang, Tatsunori Hashimoto"
+    paper_pdf: https://arxiv.org/pdf/2312.04469v2
+    nlp: y
+
+  - title: "Removing rlhf protections in gpt-4 via fine-tuning"
+    authors: "Qiusi Zhan, Richard Fang, Rohan Bindu, Akul Gupta, Tatsunori Hashimoto, Daniel Kang"
+    venue: "ArXiv preprint"
+    paper_pdf: https://arxiv.org/pdf/2311.05553
+    nlp: y
+
+  - title: "Proving test set contamination in black box language models"
+    authors: "Yonatan Oren, Nicole Meister, Niladri Chatterji, Faisal Ladhak, Tatsunori B Hashimoto"
+    venue: "International Conference on Learning Representations (ICLR 2024)"
+    paper_pdf: https://arxiv.org/pdf/2310.17623
+    statsml: y
+    nlp: y
+    selected: y
+
+  - title: "Benchmarking and improving generator-validator consistency of language models"
+    authors: "Xiang Lisa Li, Vaishnavi Shrivastava, Siyan Li, Tatsunori Hashimoto, Percy Liang"
+    venue: "International Conference on Learning Representations (ICLR 2024)"
+    paper_pdf: https://arxiv.org/pdf/2310.01846
+    nlp: y
+    selected: y
+
+  - title: "Identifying the risks of lm agents with an lm-emulated sandbox"
+    authors: "Yangjun Ruan, Honghua Dong, Andrew Wang, Silviu Pitis, Yongchao Zhou, Jimmy Ba, Yann Dubois, Chris J Maddison, Tatsunori Hashimoto"
+    venue: "International Conference on Learning Representations (ICLR 2024)"
+    paper_pdf: https://arxiv.org/pdf/2309.15817
+    nlp: y
+    selected: y
+
+  - title: "Safety-tuned llamas: Lessons from improving the safety of large language models that follow instructions"
+    authors: "Federico Bianchi, Mirac Suzgun, Giuseppe Attanasio, Paul Röttger, Dan Jurafsky, Tatsunori Hashimoto, James Zou"
+    venue: "International Conference on Learning Representations (ICLR 2024)"
+    paper_pdf: https://arxiv.org/pdf/2309.07875
+    nlp: y
 
   - title: "Robust Distortion-free Watermarks for Language Models"
     authors: "Rohith Kuditipudi, John Thickstun, Tatsunori Hashimoto, Percy Liang"
-    venue: "ArXiv preprint"
+    venue: "Transactions on Machine Learning Research (TMLR 2024)"
     paper_pdf: https://arxiv.org/pdf/2307.15593.pdf
     statsml: y
     selected: y
 
   - title: "One Step of Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention"
     authors: "Arvind Mahankali, Tatsunori B. Hashimoto, Tengyu Ma"
-    venue: "ArXiv preprint"
+    venue: "International Conference on Learning Representations (ICLR 2024)"
     paper_pdf: https://arxiv.org/pdf/2307.03576.pdf
     statsml: y
 
   - title: "Likelihood-Based Diffusion Language Models"
     authors: "Ishaan Gulrajani, Tatsunori B. Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS 2023)"
     paper_pdf: https://arxiv.org/pdf/2305.18619v1.pdf
     nlp: y
     statsml: y
@@ -23,7 +110,7 @@ papers:
 
   - title: "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback"
     authors: "Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy Liang, Tatsunori B Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS 2023)"
     paper_pdf: https://arxiv.org/pdf/2305.14387.pdf
     nlp: y
     selected: y
@@ -50,14 +137,14 @@ papers:
 
   - title: "Foundation Models and Fair Use"
     authors: "Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A Lemley, Percy Liang"
-    venue: "ArXiv preprint"
+    venue: "Journal of Machine Learning Research (JMLR 2024)"
     paper_pdf: https://arxiv.org/pdf/2303.15715.pdf
     nlp: y
     selected: y 
 
   - title: "Navigating the Grey Area: Expressions of Overconfidence and Uncertainty in Language Models"
     authors: "Kaitlyn Zhou, Dan Jurafsky, Tatsunori Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)"
     paper_pdf: https://arxiv.org/pdf/2302.13439.pdf
     nlp: y
     selected: y
@@ -73,25 +160,23 @@ papers:
     venue: "ArXiv preprint"
     paper_pdf: https://arxiv.org/pdf/2302.05733.pdf
     statsml: y
-    selected: y
 
   - title: "Evaluating Self-Supervised Learning via Risk Decomposition"
     authors: "Yann Dubois, Tatsunori Hashimoto, Percy Liang"
     venue: "International Conference on Machine Learning (ICML 2023, oral)"
     paper_pdf: https://arxiv.org/pdf/2302.03068.pdf
     statsml: y
-    selected: y
 
   - title: "Benchmarking Large Language Models for News Summarization"
     authors: "Tianyi Zhang, Faisal Ladhak, Esin Durmus, Percy Liang, Kathleen McKeown, Tatsunori B Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "Transactions of the Association of Computational Linguistics (TACL, presented at EMNLP 2023)"
     paper_pdf: https://arxiv.org/pdf/2301.13848.pdf
     nlp: y
     selected: y
 
   - title: "Tracing and Removing Data Errors in Natural Language Generation Datasets"
     authors: "Faisal Ladhak, Esin Durmus, Tatsunori Hashimoto"
-    venue: "ArXiv preprint"
+    venue: "Annual Meeting of the Association of Computational Linguistics (ACL 2023)"
     paper_pdf: https://arxiv.org/pdf/2212.10722.pdf
     nlp: y
     selected: y
@@ -134,7 +219,6 @@ papers:
     venue: "International Conference on Learning Representations (ICLR 2023)"
     paper_pdf: https://arxiv.org/pdf/2207.07635.pdf
     statsml: y
-    selected: y
 
   - title: "A Closer Look at the Calibration of Differentially Private Learners"
     authors: "Hanlin Zhang, Xuechen Li, Prithviraj Sen, Salim Roukos, Tatsunori Hashimoto"
@@ -174,14 +258,12 @@ papers:
     venue: "ArXiv preprint"
     paper_pdf: https://arxiv.org/pdf/2205.13094.pdf
     statsml: y
-    selected: y
-    
+
   - title: "TempLM: Distilling Language Models into Template-Based Generators"
     authors: "Tianyi Zhang, Mina Lee, Lisa Li, Ende Shen, Tatsunori B Hashimoto"
     venue: "ArXiv preprint"
     paper_pdf: https://arxiv.org/pdf/2205.11055.pdf
     nlp: y
-    selected: y
 
   - title: "Emergent abilities of large language models"
     authors: "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus"
@@ -189,6 +271,7 @@ papers:
     paper_pdf: https://openreview.net/pdf?id=yzkSU5zdwD
     nlp: y
     statsml: y
+    selected: y
     
   - title: "Jury learning: Integrating dissenting voices into machine learning models"
     authors: "Mitchell Gordon, Michelle Lam, Joon Park, Kayur Patel, Jeff Hancock, Tatsunori B Hashimoto, Michael Bernstein"
@@ -230,14 +313,12 @@ papers:
     venue: "International Conference on Learning Representations (ICLR 2022)"
     paper_pdf: https://openreview.net/pdf?id=a34GrNaYEcS
     statsml: y
-    selected: y
 
   - title: "Extending the WILDS Benchmark for Unsupervised Adaptation"
     authors: "Shiori Sagawa, Pang Wei Koh [...] Tatsunori Hashimoto, Sergey Levine, Chelsea Finn, Percy Liang"
     venue: "International Conference on Learning Representations (ICLR 2022 Oral)"
     paper_pdf: https://openreview.net/forum?id=z7p2V6KROVO
     statsml: y
-    selected: y
 
   - title: "On the opportunities and risks of foundation models"
     authors: "Rishi Bommasani [.. alphabetical authors ..] Tatsunori Hashimoto [...]"
@@ -273,7 +354,6 @@ papers:
     authors: "Tianyi Zhang, Tatsunori B Hashimoto"
     venue: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)"
     paper_pdf: https://arxiv.org/pdf/2104.05694.pdf
-    selected: y
     nlp: y
     
 
@@ -313,7 +393,6 @@ papers:
     venue: "International Conference on Machine Learning (ICML 2020)"
     paper_pdf: https://arxiv.org/abs/2007.06661
     statsml: y
-    selected: y
 
   - title: "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-case Generalization"
     authors: "Shiori Sagawa<b>*</b>, Pang Wei Koh<b>*</b>, Tatsunori B Hashimoto, Percy Liang"
@@ -333,6 +412,7 @@ papers:
     venue: "Empirical Methods in Natural Language Processing (EMNLP 2019)"
     paper_pdf: "https://arxiv.org/abs/1909.02060"
     nlp: y
+    selected: y
 
 
   - title: "Distributionally Robust Losses For Latent Covariate Mixtures"
